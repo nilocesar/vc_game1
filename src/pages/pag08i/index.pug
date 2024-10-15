@@ -1,0 +1,30 @@
+extends ../../templates/page/template.page-base-adaptativo.pug
+
+block styles
+	link(rel="stylesheet", href="style.css")
+
+block body
+	body(next-hide)
+		.body
+			.boxWhite.zoomIn
+				.boxText
+					h1 CASO FICTÍCIO D
+					h2 Transformação da Cultura Organizacional na RD
+					p A RD está passando por uma transformação em sua cultura organizacional para promover um ambiente de trabalho mais colaborativo, empoderado e orientado para resultados. Como líder encarregado dessa transformação, você se depara com desafios relacionados aos comportamentos-chave, princípios da liderança e a questão da microgestão.
+					button.confirm.block.pulse
+						p Confirmar
+				.boxQuestion
+					p <b>PERGUNTA 8</b>
+					p Durante a fase de implementação de novas práticas de atendimento ao cliente para refletir o princípio "Priorizamos o cliente", surgem discordâncias entre os membros da equipe sobre como melhorar a experiência do cliente. Alguns líderes insistem em adotar abordagens tradicionais e controladoras, enquanto outros defendem uma abordagem mais flexível e centrada no cliente. Como você resolveria essa questão?
+					.boxFlex
+						.flex.flex1.false(res=0)
+							button.btn.btn1
+								+image('check.png', 'check')
+							p Imporia unilateralmente as práticas tradicionais para garantir a consistência no atendimento ao cliente.
+						.flex.flex2.correct(res=1)
+							button.btn.btn2
+								+image('check.png', 'check')
+							p Facilitaria discussões entre os membros da equipe para explorar diferentes perspectivas e tomar decisões que priorizem a satisfação e as necessidades individuais dos clientes.
+		
+block scripts
+	script(src="script.js")

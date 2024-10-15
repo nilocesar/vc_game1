@@ -1,0 +1,29 @@
+extends ../../templates/page/template.page-base-adaptativo.pug
+
+block styles
+	link(rel="stylesheet", href="style.css")
+
+block body
+	body(prev-hide,next-hide, next-page="pag04")
+		.body
+			.line
+			.flexView
+				.boxInfo
+					h1.down O Espetáculo da Nossa Cultura!
+					p.down Nosso Espetáculo acontece graças às nossas lideranças e aos nossos colaboradores que, dia após dia, de nota em nota, dão vida aos nossos Valores Essenciais, que seguem, sempre, nosso Propósito!
+					p.down.inas Clique em + para interagir
+					
+				.boxImg
+					+orquestra2()
+					.plusX.plusX1.zoomIn.delay4(page='pag05a')
+						+image('plus.svg', 'plusHit pulse')
+					.plusX.plusX2.zoomIn.delay5(page='pag05b')
+						+image('plus.svg', 'plusHit pulse')
+					.plusX.plusX3.zoomIn.delay6(page='pag05c')
+						+image('plus.svg', 'plusHit pulse')
+					.plusX.plusX4.zoomIn.delay7(page='pag05d1')
+						+image('plus.svg', 'plusHit pulse')
+					
+				
+block scripts
+	script(src="script.js")

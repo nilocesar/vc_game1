@@ -1,0 +1,24 @@
+extends ../../templates/page/template.page-base-adaptativo.pug
+
+block styles
+	link(rel="stylesheet", href="style.css")
+
+block body
+	body(prev-page="pag05", next-hide)
+		.body
+			+image('pag06/maestro.png', 'pers left delay2')
+			.flexView
+				+image('pag06c/box.png', 'boxImg')
+				+image('detalhe1.svg', 'detalhe detalhe1')
+				.boxInfo
+					+maestro1()
+					+maestro2a()
+					+maestro2b()
+					+maestro3a()
+					+maestro3b()
+					+maestro4a()
+					+maestro4b()
+					
+				
+block scripts
+	script(src="script.js")

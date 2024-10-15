@@ -1,0 +1,32 @@
+extends ../../templates/page/template.page-base-adaptativo.pug
+
+block styles
+	link(rel="stylesheet", href="style.css")
+
+block body
+	body(next-hide, menu-hide, next-page='page04')
+		.body
+			.boxInfo
+				.title
+					h1 Chegou um convite para você!
+					p Clique no envelope para abrir.
+				+image('detalhe1.svg', 'detalhe detalhe1')
+				+image('detalhe2.svg', 'detalhe detalhe2')
+				.containerCard
+					.base
+					.card
+						.cardRef
+							.cardBase
+								+image('pag02/carta.svg', 'carta')
+						.close
+							+image('closedOrange.svg', 'closed')
+					+image('pag02/env.png', 'env playerBase')
+					.top.playerBase
+					.player.playerBase.pulse 
+						+image('plus.svg', 'plus')
+					
+			
+			
+block scripts
+	+scriptScripts('gsap.min.js')
+	script(src="script.js")

@@ -1,0 +1,30 @@
+extends ../../templates/page/template.page-base-adaptativo.pug
+
+block styles
+	link(rel="stylesheet", href="style.css")
+
+block body
+	body(next-hide)
+		.body
+			.boxWhite.zoomIn
+				.boxText
+					h1 CASO FICTÍCIO D
+					h2 Transformação da Cultura Organizacional na RD
+					p A RD está passando por uma transformação em sua cultura organizacional para promover um ambiente de trabalho mais colaborativo, empoderado e orientado para resultados. Como líder encarregado dessa transformação, você se depara com desafios relacionados aos comportamentos-chave, princípios da liderança e a questão da microgestão.
+					button.confirm.block.pulse
+						p Confirmar
+				.boxQuestion
+					p <b>PERGUNTA 7</b>
+					p Durante a implementação de programas de desenvolvimento de equipe para promover o comportamento "Desenvolvemos times saudáveis", alguns líderes demonstram tendências de microgestão, controlando excessivamente as atividades de suas equipes e minando a autonomia dos membros. Como você abordaria essa questão?
+					.boxFlex
+						.flex.flex1.false(res=0)
+							button.btn.btn1
+								+image('check.png', 'check')
+							p Ignoraria os comportamentos de microgestão, priorizando apenas os resultados imediatos.
+						.flex.flex2.correct(res=1)
+							button.btn.btn2
+								+image('check.png', 'check')
+							p Identificaria os líderes que demonstram tendências de microgestão e ofereceria treinamento e orientação para desenvolver habilidades de delegação e confiança na equipe.
+		
+block scripts
+	script(src="script.js")

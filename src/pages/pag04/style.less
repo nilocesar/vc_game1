@@ -1,0 +1,263 @@
+@import '../../less/includes/colors.less';
+@import '../../less/includes/fonts.less';
+
+body {
+    background-image: url(../../assets/img/bg1.png);
+    background-size: cover;
+    background-position: center;
+
+    .detalhe {
+        position: absolute;
+        width: 2.5rem;
+        height: 6rem;
+        object-fit: contain;
+        top: 8rem;
+        left: 0rem;
+        transform: scaleY(-1);
+    }
+    
+    .body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 64rem;
+        height: 36rem;
+        position: relative;
+
+        .baseMenu{
+            button {
+                background-color: @color-02;
+                padding: .3rem 2rem;
+                border-radius: .6rem;
+                margin-top: 2rem;
+        
+                p {
+                    margin: 0 !important;
+                }
+            }
+        }
+
+        
+        
+        .flexView {
+            margin-top: 5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            // width: 55rem;
+
+            .boxImg {
+                position: absolute;
+                width: 50rem;
+                height: 28rem;
+                top: 5rem;
+                left: 16rem;
+
+                .plusX {
+                    position: absolute;
+                    width: 2rem;
+                    height: 2rem;
+                    object-fit: contain;
+                    cursor: pointer;
+
+                    .plusHit{
+                        position: relative;
+                        width: 100%;
+                        height: 100%;
+                        object-fit: contain;
+                    }
+
+                    &.plusX1{
+                        top: 22em;
+                        left: 17em;
+                    }
+                    &.plusX2 {
+                        top: 19em;
+                        left: 22.5em;
+                    }
+                    &.plusX3 {
+                        top: 15em;
+                        left: 29em;
+                    }
+                    &.plusX4 {
+                        top: 10.5em;
+                        left: 36.5em;
+                    }
+                }
+
+                .orquestraBase{
+                    position: relative;
+                    width: 100%;
+                    height: 100%;
+                    
+                    
+
+                    svg {
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        object-fit: contain;
+                
+                        .hit {
+                            cursor: pointer;
+                            opacity: 0;
+                            z-index: 3;
+
+                            // &.hit1 {
+                            //     opacity: 1;
+                            // }
+                        }
+
+                        .fundo{
+
+                            &.fundo1 {
+                                opacity: 0;
+                                animation: fadeInSvg1 0.6s ease both;
+                                animation-delay: 1s;
+                            }
+                            &.fundo2 {
+                                opacity: 0;
+                                animation: fadeInSvg2 0.6s ease both;
+                                animation-delay: 1.3s;
+                            }
+                            &.fundo3 {
+                                opacity: 0;
+                                animation: fadeInSvg3 0.6s ease both;
+                                animation-delay: 1.6s;
+                            }
+                            &.fundo4 {
+                                opacity: 0;
+                                animation: fadeInSvg4 0.6s ease both;
+                                animation-delay: 1.9s;
+                            }
+
+                        }
+
+                        .fundoPB{
+                            filter: grayscale(100%);
+                        }
+                    }
+                }
+                
+            }
+
+            .boxInfo {
+                width: 16rem;
+                position: absolute;
+                top: 6rem;
+                left: 2rem;
+
+                .boxInfoBase{
+                    position: relative;
+                    left: 5rem;
+                }
+                
+                h1 {
+                    color: @color-05;
+                }
+                p {
+                    color: @color-white;
+                    margin-top: 1rem;
+                }
+                .subtext {
+                    font-size: .9rem;
+                    width: 100%;
+                    margin-top: 1rem;
+                    font-weight: bold;
+                }
+                
+                .cartaBtn{
+                    position: relative;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    width: 16rem;
+                    bottom: 1rem;
+                    left: 0;
+                    margin-top: 8rem;
+                    
+
+                    .cartaBase{
+                        position: relative;
+                        width: 8rem;
+                        height: 10rem;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 1rem;
+                        cursor: pointer;
+                        
+                        
+
+                        .cartaInt{
+                            position: absolute;
+                            width: 100%;
+                            height: 100%;
+                            object-fit: contain;
+                        }
+
+                        .plusInt{
+                            position: absolute;
+                            width: 2rem;
+                            height: 2rem;
+                            object-fit: contain;
+                            top: 50%;
+                            left: 50%;
+                            margin-top: -0.75rem;
+                            margin-left: -1.25rem;
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+
+@keyframes fadeInSvg1 {
+    0% {
+        opacity: 0;
+        transform: translate(0px, 459px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0px, 509px);
+    }
+}
+
+@keyframes fadeInSvg2 {
+    0% {
+        opacity: 0;
+        transform: translate(119px, 171px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(119px, 221px);
+    }
+}
+
+@keyframes fadeInSvg3 {
+    0% {
+        opacity: 0;
+        transform: translate(315px, 207px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(315px, 257px);
+    }
+}
+
+@keyframes fadeInSvg4 {
+    0% {
+        opacity: 0;
+        transform: translate(546px,-10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(546px,0);
+    }
+}

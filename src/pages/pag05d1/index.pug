@@ -1,0 +1,16 @@
+extends ../../templates/page/template.page-base-adaptativo.pug
+
+block styles
+	link(rel="stylesheet", href="style.css")
+
+block body
+	body(prev-page="pag05")
+		.body
+			.boxWhite.zoomIn
+				.boxText
+					h1 Nosso Propósito <br> <b>Juntos por uma sociedade mais saudável.</b>
+					p Pense em nosso <b>Propósito</b> como a partitura que guia o Espetáculo! E no maestro, como a liderança que – por meio dos <b>Princípios da Liderança</b> - garante que tal partitura seja executada da forma mais eficiente e alinhada com os valores da RD e de toda a equipe.
+				+image('help/detal.png', 'detal')
+				
+block scripts
+	script(src="script.js")

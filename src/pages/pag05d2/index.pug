@@ -1,0 +1,64 @@
+extends ../../templates/page/template.page-base-adaptativo.pug
+
+block styles
+	link(rel="stylesheet", href="style.css")
+
+block body
+	body(next-page="pag05", next-hide)
+		.body
+			+image('pag05d2/pers.png', 'pers left')
+			.flexView
+				+image('pag05d2/box.png', 'boxImg')
+				.boxButtons
+					button.btn.btn1.pulse
+						h1 1
+					button.btn.btn2.pulse.block
+						h1 2
+					button.btn.btn3.pulse.block
+						h1 3
+					button.btn.btn4.pulse.block
+						h1 4
+					button.btn.btn5.pulse.block
+						h1 5
+					button.btn.btn6.pulse.block
+						h1 6
+					button.btn.btn7.pulse.block
+						h1 7
+					button.btn.btn8.pulse.block
+						h1 8
+					button.btn.btn9.pulse.block
+						h1 9
+				.boxInfo
+					h2 Princípios da Liderança.
+					p Para uma sociedade mais saudável
+					p.subtext Clique nos números para interagir
+					.box.box1.hide.zoomIn
+						p <b>Crescemos juntos</b>
+						p Na RD, fazemos questão de desenvolver e reconhecer nossas pessoas e times.
+					.box.box2.hide.right
+						p <b>Priorizamos o cliente</b>
+						p Na RD, escutamos os clientes, de perto, para chegarmos nas soluções mais relevantes.
+					.box.box3.hide.up
+						p <b>Valorizamos a diversidade</b>
+						p Na RD, valorizamos a riqueza da diversidade na construção de times e entregas.
+					.box.box4.hide.right
+						p <b>Buscamos as melhores pessoas</b>
+						p Na RD, formamos times colaborativos com alta capacidade de execução.
+					.box.box5.hide.zoomIn
+						p <b>Queremos descomplicar</b>
+						p Na RD, removemos barreiras para simplificar nossas iniciativas e ampliar a autonomia das pessoas.
+					.box.box6.hide.up
+						p <b>Elevamos a barra</b>
+						p Na RD, buscamos nos superar e queremos fazer sempre melhor.
+					.box.box7.hide.right
+						p <b>Aprendemos sempre</b>
+						p Na RD, criamos experiências de aprendizagem que possibilitam uma atuação superior.
+					.box.box8.hide.up
+						p <b>Provocamos a evolução</b>
+						p Na RD, nos posicionamos e dialogamos, olho no olho, quando identificamos oportunidades de contribuição.
+					.box.box9.hide.zoomIn
+						p <b>Olhamos para fora</b>
+						p Na RD, dedicamos tempo para ampliar nossas referências e parcerias.
+				
+block scripts
+	script(src="script.js")

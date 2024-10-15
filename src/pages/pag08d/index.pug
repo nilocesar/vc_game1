@@ -1,0 +1,30 @@
+extends ../../templates/page/template.page-base-adaptativo.pug
+
+block styles
+	link(rel="stylesheet", href="style.css")
+
+block body
+	body(next-hide)
+		.body
+			.boxWhite.zoomIn
+				.boxText
+					h1 CASO FICTÍCIO B
+					h2 Lançamento de uma Nova Linha de Produtos Sustentáveis
+					p A RD está lançando uma nova linha de produtos de saúde e beleza totalmente sustentáveis, com embalagens biodegradáveis ​​e ingredientes naturais. Como líder do projeto de lançamento, você é encarregado de garantir que o lançamento da nova linha esteja alinhado com os comportamentos-chave da RD.
+					button.confirm.block.pulse
+						p Confirmar
+				.boxQuestion
+					p <b>PERGUNTA 3</b>
+					p Durante o desenvolvimento da nova linha de produtos, surgem divergências entre os membros da equipe sobre os fornecedores a serem escolhidos para os ingredientes naturais. Alguns membros defendem fornecedores mais baratos, enquanto outros argumentam que devemos priorizar fornecedores que seguem práticas sustentáveis. Como você resolveria essa questão?
+					.boxFlex
+						.flex.flex1.correct(res=1)
+							button.btn.btn1
+								+image('check.png', 'check')
+							p Facilitaria uma discussão entre os membros da equipe para entender todas as perspectivas e tomar uma decisão que equilibre custo e sustentabilidade.
+						.flex.flex2.false(res=0)
+							button.btn.btn2
+								+image('check.png', 'check')
+							p Decidiria unilateralmente pelos fornecedores mais baratos para manter os custos baixos.
+		
+block scripts
+	script(src="script.js")

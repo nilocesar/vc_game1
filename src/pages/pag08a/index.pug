@@ -1,0 +1,21 @@
+extends ../../templates/page/template.page-base-adaptativo.pug
+
+block styles
+	link(rel="stylesheet", href="style.css")
+
+block body
+	body(prev-page="pag05", next-hide)
+		.body
+			+image('pag08a/img.png', 'pers left')
+			.flexView
+				+image('pag08a/box.png', 'boxImg')
+				.boxInfo
+					h1 Sua vez de praticar!
+					p Construímos alguns cenários que vão desafiar seus conhecimentos e te fazer refletir sobre seu papel enquanto líder.
+					p.subtext ATENÇÃO: Os cenários apresentados são fictícios, apenas utilizando o contexto RD como plano de fundo.
+					.flexEnd
+						button.btn.pulse(onclick="navigate.next()")
+							p Vamos lá!
+				
+block scripts
+	script(src="script.js")

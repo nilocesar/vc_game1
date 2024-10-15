@@ -1,0 +1,47 @@
+extends ../../templates/page/template.page-base-adaptativo.pug
+
+block styles
+	link(rel="stylesheet", href="style.css")
+
+block body
+	body(prev-page="pag04",next-page="pag04", next-hide)
+		.body
+			.boxInfos.zoomIn
+				.boxText
+					p.subtext Clique em + para interagir
+					h1 Nossos Ritos e Práticas
+					p O espetáculo só acontece porque cultivamos, dia após dia, nossos Ritos e Práticas, criados para ajudar a trazer nossos Propósito, Valores, Comportamentos e Princípios da Liderança à realidade.
+				.boxAccordeon
+					.container-accordeon-horz
+						.corpbtn
+							button.accordeon-title
+								+image('pag07a/ico1.png', 'imgBox')
+								.boxImg
+									+image('help/btn05.png', 'img itz1')
+									+image('pag07a/check.svg', 'img check check1')
+							.accordeon-texto
+								.textBox
+									p <b>Ritos</b>
+									p São ações institucionalizadas recorrentes, que devem ser implementadas em cada diretoria, com apoio de GCS, conforme cada contexto e realidade, visando aumentar coerência, coesão <br>e reconhecimento.
+									.flexButton
+										button.boxImg(onclick="navigate.goto('pag07b')")
+											+image('help/btn05.png', 'img')
+										p Conhecer
+
+						.corpbtn.reverse
+							button.accordeon-title
+								+image('pag07a/ico2.png', 'imgBox')
+								.boxImg
+									+image('help/btn05.png', 'img itz2')
+									+image('pag07a/check.svg', 'img check check2')
+							.accordeon-texto
+								.textBox
+									p <b>Práticas</b>
+									p São ações que podem ser fortalecidas e implementadas no dia a dia pelas lideranças, para impulsionar um ambiente de segurança psicológica, inovação e barra alta.
+									.flexButton
+										button.boxImg(onclick="navigate.goto('pag07c')")
+											+image('help/btn05.png', 'img')
+										p Conhecer							
+						
+block scripts
+	script(src="script.js")

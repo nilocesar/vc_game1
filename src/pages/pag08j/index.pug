@@ -1,0 +1,30 @@
+extends ../../templates/page/template.page-base-adaptativo.pug
+
+block styles
+	link(rel="stylesheet", href="style.css")
+
+block body
+	body(next-hide)
+		.body
+			.boxWhite.zoomIn
+				.boxText
+					h1 CASO FICTÍCIO E
+					h2 Transformação da Cultura Organizacional na RD
+					p A RD está empenhada em fortalecer sua cultura organizacional, promovendo o desenvolvimento contínuo dos colaboradores e aprimorando a comunicação e o feedback dentro da empresa. Como líder designado para liderar essa iniciativa, você enfrenta desafios relacionados aos comportamentos-chave, princípios de liderança e à importância do feedback contínuo.
+					button.confirm.block.pulse
+						p Confirmar
+				.boxQuestion
+					p <b>PERGUNTA 9</b>
+					p Durante uma reunião de equipe, um colaborador expressa frustração com a falta de reconhecimento por suas contribuições, citando o comportamento "Encantamos nossos clientes". Ele sente que suas ideias e esforços não são valorizados pela liderança. Como você abordaria essa preocupação?
+					.boxFlex
+						.flex.flex1.correct(res=1)
+							button.btn.btn1
+								+image('check.png', 'check')
+							p Ouviria atentamente as preocupações do colaborador, reconheceria suas contribuições e promoveria uma cultura de reconhecimento e valorização mútua dentro da equipe.
+						.flex.flex2.false(res=0)
+							button.btn.btn2
+								+image('check.png', 'check')
+							p Descartaria as preocupações do colaborador, considerando-as como reclamações individuais.
+		
+block scripts
+	script(src="script.js")

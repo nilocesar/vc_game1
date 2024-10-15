@@ -1,0 +1,208 @@
+@import '../../less/includes/colors.less';
+@import '../../less/includes/fonts.less';
+
+body {
+    background-image: url(../../assets/img/bg1.png);
+    background-size: cover;
+    background-position: center;
+
+    .detalhe {
+        position: absolute;
+        width: 2.5rem;
+        height: 6rem;
+        object-fit: contain;
+        top: 19rem;
+        left: 1rem;
+        transform: scaleY(-1);
+    }
+    
+    .body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 64rem;
+        height: 36rem;
+        position: relative;
+
+        .line {
+            width: 54rem;
+            height: 30rem;
+            position: absolute;
+            border: 0.2rem solid #fff;
+            border-radius: 4rem;
+            margin-top: 4rem;
+        }
+
+        
+        
+        .flexView {
+            margin-top: 5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            width: 50rem;
+
+            .boxImg {
+                position: relative;
+                width: 100%;
+                height: 20rem;
+
+                .plusX {
+                    position: absolute;
+                    width: 2rem;
+                    height: 2rem;
+                    object-fit: contain;
+                    cursor: pointer;
+
+                    .plusHit{
+                        position: relative;
+                        width: 100%;
+                        height: 100%;
+                        object-fit: contain;
+                    }
+
+                    &.plusX1{
+                        top: 4rem;
+                        left: 10rem;
+                    }
+                    &.plusX2 {
+                        top: 0.5rem;
+                        left: 24em;
+                    }
+                    &.plusX3 {
+                        top: 4em;
+                        left: 38em;
+                    }
+                    &.plusX4 {
+                        top: 16.5em;
+                        left: 26.5em;
+                    }
+                }
+
+                .orquestraBase{
+                    position: relative;
+                    width: 100%;
+                    height: 100%;
+                    
+                    
+
+                    svg {
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        object-fit: contain;
+                
+                        .hit {
+                            cursor: pointer;
+                            opacity: 0;
+                            z-index: 3;
+                        }
+
+                        .fundo{
+
+                            &.fundo1 {
+                                opacity: 0;
+                                animation: fadeInSvg1 0.6s ease both;
+                                animation-delay: 1s;
+                            }
+                            &.fundo2 {
+                                opacity: 0;
+                                animation: fadeInSvg2 0.6s ease both;
+                                animation-delay: 1.3s;
+                            }
+                            &.fundo3 {
+                                opacity: 0;
+                                animation: fadeInSvg3 0.6s ease both;
+                                animation-delay: 1.6s;
+                            }
+                            &.fundo4 {
+                                opacity: 0;
+                                animation: fadeInSvg4 0.6s ease both;
+                                animation-delay: 1.9s;
+                            }
+
+                        }
+
+                        .fundoPB{
+                            filter: grayscale(100%);
+                        }
+                    }
+                }
+                
+            }
+
+            .boxInfo {
+                width: 100%;
+                margin-bottom: 1em;
+                h1 {
+                    color: @color-05;
+                    text-align: center;
+                }
+                p {
+                    color: @color-white;
+                    margin-top: 1rem;
+                    text-align: center;
+
+                    &.inas{
+                        font-style: italic;
+                    }
+                }
+                .subtext {
+                    font-size: .9rem;
+                    width: 100%;
+                    margin-top: 1rem;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+
+@keyframes fadeInSvg1 {
+    0% {
+        opacity: 0;
+        transform: translate(0px, 46px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0px 96.15px);
+    }
+}
+
+@keyframes fadeInSvg2 {
+    0% {
+        opacity: 0;
+        transform: translate(239px, -49.15px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(239px, 10.15px);
+    }
+}
+
+@keyframes fadeInSvg3 {
+    0% {
+        opacity: 0;
+        transform: translate(538px, 25.15px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(538px, 75.15px);
+    }
+}
+
+@keyframes fadeInSvg4 {
+    0% {
+        opacity: 0;
+        transform: translate(379px, 246.15px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(379px, 296.15px);
+    }
+}

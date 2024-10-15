@@ -1,0 +1,37 @@
+extends ../../templates/page/template.page-base-adaptativo.pug
+
+block styles
+	link(rel="stylesheet", href="style.css")
+
+block body
+	body(prev-hide,next-hide, menu-hide)
+		.body
+			.flexView
+				.boxInfo
+					.boxInfoBase
+						h1.down Boas-vindas!
+						p.down Este menu vai te ajudar a acessar cada momento do espetáculo.
+						p.down Seu avanço será liberado conforme a conclusão de cada trecho do conteúdo.
+						.baseMenu.down
+							button.btn.pulse(onclick="navigate.goto('pag09')")
+								p Finalizar
+					+image('detalhe1.svg', 'detalhe detalhe1 in delay1')
+					button.cartaBtn(onclick="navigate.goto('pag02')")
+						.cartaBase.zoomIn.delay1
+							+image('pag04/carta.svg', 'cartaInt zoomIn delay1')
+							+image('plus.svg', 'plusInt pulse')
+						p.right.delay2 Rever convite
+				.boxImg
+					+orquestra()
+					.plusX.plusX1.zoomIn.delay4(page='pag05')
+						+image('plus.svg', 'plusHit pulse')
+					.plusX.plusX2.zoomIn.delay5(page='pag06a')
+						+image('plus.svg', 'plusHit pulse')
+					.plusX.plusX3.zoomIn.delay6(page='pag07a')
+						+image('plus.svg', 'plusHit pulse')
+					.plusX.plusX4.zoomIn.delay7(page='pag08a')
+						+image('plus.svg', 'plusHit pulse')
+					
+				
+block scripts
+	script(src="script.js")

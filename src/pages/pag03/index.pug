@@ -1,0 +1,51 @@
+extends ../../templates/page/template.page-base-adaptativo.pug
+
+block styles
+	link(rel="stylesheet", href="style.css")
+
+block body
+	body(next-hide, menu-hide)
+		.body
+			.boxGreen.zoomIn
+				+image('pag03/mao_caneta.png', 'mao right delay1')
+				.boxText
+					h1 Confirma sua presença na <b>Evolução Cultural?</b>
+					.boxFlex
+						.flex
+							button.btn.btn1
+								+image('check.png', 'check')
+							p Não. Não  desejo evoluir.
+						.flex
+							button.btn.btn2
+								+image('check.png', 'check')
+							p Sim! Vamos lá!
+					button.confirm.block.pulse
+						p Confirmar
+			
+		
+		#nao.resp.hide
+			.bodyModal
+				+image('pag03/nao.png', 'pers1 left delay1')
+				.flex
+					+image('pag03/box.png', 'boxImg')
+					.boxtext.up
+						p A Evolução Cultural é um processo fundamental para a RD! Por isso, evoluir conosco é necessário!
+						p Além disso, os novos conhecimentos gerados a partir deste conteúdo, vão impulsionar seu desenvolvimento pessoal e suas habilidades de liderança.
+						p Caso tenha alguma dúvida ou queira falar sobre algum fator que esteja te desmotivando, entre em contato com seu líder!
+						p Por ora, não perca esta chance de evoluir!
+						button.avancar(onclick='navigate.next()')
+							p Vem com a gente!
+
+		#sim.resp.hide
+			.bodyModal
+				+image('pag03/sim.png', 'pers2 left delay1')
+				.flex
+					+image('pag03/box.png', 'boxImg')
+					.boxtext.up
+						h1 Obrigada por aceitar nosso convite!
+						p Tenha certeza de que vai valer a pena! Esta trilha de aprendizagem foi pensada especialmente para você, líder RD e, assim, vai fazer parte, também, de sua evolução e desenvolvimento profissional!
+						button.avancar(onclick='navigate.next()')
+							p Vamos começar!
+
+block scripts
+	script(src="script.js")

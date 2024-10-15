@@ -1,0 +1,49 @@
+extends ../../templates/page/template.page-base-adaptativo.pug
+
+block styles
+	link(rel="stylesheet", href="style.css")
+
+block body
+	body(next-hide, prev-page="pag05", next-page="pag05")
+		.body
+			.boxGreen.zoomIn
+				.boxText
+					h1 Construímos o futuro
+					p Aprender e conhecer as possibilidades são caminhos para a evolução – é o que nos diz este valor.
+					p.prop-mt1 Para ele, temos dois comportamentos esperados.
+				.boxAccordeon
+					p.subtext Clique em + para conhecer os comportamentos esperados.
+					.container-accordeon
+						.corpbtn
+							button.accordeon-title
+								.boxImg
+									+image('help/btn05.png', 'img')
+								p Aprendemos continuamente
+							.accordeon-texto
+								p Temos iniciativa para buscar novos conhecimentos, aprender com erros e construir Parcerias.
+								p É esperado que cada um de nós:
+								ul
+									li
+										p Seja curioso para buscar novos conhecimentos e aproximá-los do nosso negócio.
+									li
+										p Tenha humildade para aprender com os erros e repensar suas práticas.
+									li
+										p Seja proativo para fazer novas conexões e parcerias que fortaleçam nossas soluções.
+						.corpbtn
+							button.accordeon-title
+								.boxImg
+									+image('help/btn05.png', 'img')
+								p Inovamos com impacto
+							.accordeon-texto
+								p Questionamos o estado das coisas, assumimos riscos e colocamos em prática novas ideias que gerem impacto.
+								p É esperado que cada um de nós:
+								ul
+									li
+										p Questione o estado atual das coisas para evoluir nossas práticas e soluções.
+									li
+										p Tenha iniciativa para assumir riscos e colocar novas ideias em prática.
+									li
+										p Desenvolva soluções que sejam implementáveis e gerem impacto positivo.
+						
+block scripts
+	script(src="script.js")

@@ -1,0 +1,49 @@
+extends ../../templates/page/template.page-base-adaptativo.pug
+
+block styles
+	link(rel="stylesheet", href="style.css")
+
+block body
+	body(next-hide, prev-page="pag05", next-page="pag05")
+		.body
+			.boxBlue.zoomIn
+				.boxText
+					h1 Executamos com foco
+					p Qualidade, eficiência e objetividade fazem parte deste valor.
+					p.prop-mt1 Em relação a ele, temos dois comportamentos esperados.
+				.boxAccordeon
+					p.subtext Clique em + para conhecer os comportamentos esperados.
+					.container-accordeon
+						.corpbtn
+							button.accordeon-title
+								.boxImg
+									+image('help/btn05.png', 'img')
+								p Entregamos com responsabilidade
+							.accordeon-texto
+								p Entregamos resultados consistentes atuando com responsabilidade e conciliando objetivos de curto e longo prazo.
+								p É esperado que cada um de nós:
+								ul
+									li
+										p Atue com autonomia e agilidade em busca de resultados de excelência.
+									li
+										p Estabeleça prioridades que conciliem objetivos e resultado de curto e longo prazo.
+									li
+										p Equilibre os interesses de nossos times e indivíduos com os objetivos maiores da RD.
+						.corpbtn
+							button.accordeon-title
+								.boxImg
+									+image('help/btn05.png', 'img')
+								p Caminhamos juntos
+							.accordeon-texto
+								p Colaboramos com os outros e consideramos diferentes perspectivas, celebrando as conquistas de nossas pessoas e times.
+								p É esperado que cada um de nós:
+								ul
+									li
+										p Colabore com os desafios e celebre as conquistas uns dos outros.
+									li
+										p Considere diferentes perspectivas para realizar entregas mais consistentes.
+									li
+										p Utilize e compartilhe dados, informações e aprendizados que podem melhorar nossas decisões.
+						
+block scripts
+	script(src="script.js")

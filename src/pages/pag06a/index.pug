@@ -1,0 +1,22 @@
+extends ../../templates/page/template.page-base-adaptativo.pug
+
+block styles
+	link(rel="stylesheet", href="style.css")
+
+block body
+	body(prev-page="pag05")
+		.body
+			+image('pag06/maestro.png', 'pers left')
+			.flexView
+				+image('pag08a/box.png', 'boxImg')
+				+image('detalhe1.svg', 'detalhe detalhe1')
+				+image('detalhe2.svg', 'detalhe detalhe2')
+				.boxInfo
+					h1 Bravo!
+					p.creme Nosso maestro mostrou que é possível liderar seguindo valores humanos e de harmonia de time.
+					p Mas a realização de um grande espetáculo demanda esforço e aprendizagem contínuos por parte do time e também da liderança!
+					p A fluência de nossa Cultura se constrói no dia a dia pelo reforço – por meio de diálogo e de ação - de nosso Propósito, nossos Valores e nossos Comportamentos.
+					
+				
+block scripts
+	script(src="script.js")
