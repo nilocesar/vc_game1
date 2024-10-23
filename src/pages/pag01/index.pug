@@ -6,8 +6,25 @@ block styles
 block body
 	body(prev-hide, next-hide, menu-hide)
 		.body
-			video.desk(src="../../assets/video/abertura.mp4" muted autoplay )
-			video.mobile(src="../../assets/video/mobile.mp4" muted autoplay )
+			video.videoBG.desk#desk(src="../../assets/video/abertura.mp4" muted autoplay )
+			video.videoBG.mobile#mobile(src="../../assets/video/mobile.mp4" muted autoplay )
+			.base.basePlayer.hide
+				<div class="card">
+					<div class="content">
+						+image('pag01/player0001.png', 'player pulse')
+						video.player.zoomIn(src="../../assets/video/player0001.webm" muted autoplay loop )
+					</div>
+				</div>
+				<div class="gradient-bg">
+					<div class="gradients-container">
+						<div class="g1"></div>
+						<div class="g2"></div>
+						<div class="g3"></div>
+						<div class="g4"></div>
+						<div class="g5"></div>
+						<div class="interactive"></div>
+					</div>
+				</div>
 			//- +image('pag01/line.png', 'line')
 			//- +image('pag01/pers.png', 'pers left')
 			//- .box.up.delay1

@@ -1,33 +1,14 @@
-events.on('ready', function () {
-    
-    let btn = $('.btn');
-    let btn1 = $('.btn1');
-    let btn2 = $('.btn2');
-    let confirm = $('.confirm');
-    let nao = $('#nao');
-    let sim = $('#sim');
+events.on("ready", function () {
+  const frames = 20;
 
-    btn.on('click', function() {
-        btn.removeClass('clicked');
-        $(this).addClass('clicked');
-
-        confirmTrue();
-    });
-
-    function confirmTrue() {
-        if( btn.hasClass('clicked') ) {
-            confirm.removeClass('block');
-        }
-    }
-
-    confirm.on('click', function() {
-        if( btn1.hasClass('clicked') ){
-            nao.removeClass('hide');
-        }
-        if( btn2.hasClass('clicked') ){
-            sim.removeClass('hide');
-        }
-    });
-
+  gsap.set("#cover img", {
+    maskSize: `${frames * 100}% 100%`,
+  });
+  const tl = gsap.timeline({ repeat: -1, yoyo: true });
+  tl.to("#cover img", {
+    duration: 3,
+    delay: 1,
+    maskPosition: `-${(frames - 1) * 100}% 0%`,
+    ease: `steps(${frames - 1})`,
+  });
 });
-  

@@ -1,180 +1,233 @@
 @import '../../less/includes/colors.less';
 @import '../../less/includes/fonts.less';
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+/* 
+    
+        HEY!
+        Check my new pen "Amazing Perspective Walking Background"
+        - just CSS
+        - very, very simple
+      
+        https://codepen.io/tonetlds/pen/yOdZLx
+    
+    */
+
+
+/*--------------
+        splash
+    ---------------*/
+
+
+
 
 body {
-    background-image: url(../../assets/img/bg1.png);
+    position: relative;
+    overflow: hidden;
     background-size: cover;
-    background-position: center;
+    text-align: center;
+    padding: 0em;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 0px;
+    border-bottom: none;
+    background-color: #00B5AD;
+    background-image: radial-gradient(farthest-corner, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.95));
+    transform-style: preserve-3d;
+    transform: translate3d(0, 0, 0);
+    transition: background-color 3s ease-in-out 2s;
+    perspective: 1000px;
 
-    
-    .body {
+    .body{
+        transform: rotate(-0.3deg);
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        flex-direction: row;
         justify-content: center;
-        width: 100%;
-        position: relative;
-        height: 100%;
-        
-
-        .boxGreen {
-            width: 55rem;
-            height: 27rem;
-            background-color: @color-02;
-            border-radius: 3rem;
-            display: flex;
-            align-items: center;
-            padding: 2rem 2.5rem;
-            overflow: hidden;
-
-            .boxText {
-                width: 25rem;
-                h1 {
-                    font-weight: 100;
-                    color: @color-05;
-                }
-                .boxFlex {
-                    margin-top: 2.5rem;
-
-                    .flex {
-                        display: flex;
-                        align-items: center;
-                        gap: 1rem;
-                        .btn {
-                            background-color: @color-white;
-                            width: 2.5rem;
-                            height: 2.5rem;
-                            border-radius: .8rem;
-                            display: flex;
-                            align-items: center;
-                            justify-content: center;
-
-                            .check {
-                                width: 50%;
-                                opacity: 0;
-                            }
-
-                            &.clicked {
-                                .check {
-                                    opacity: 1;
-                                }
-                            }
-                        }
-                        p {
-                            color: @color-05;
-                        }
-                    }
-
-                    .flex + .flex {
-                        margin-top: .8rem;
-                    }
-                }
-                .confirm {
-                    background-color: @color-04;
-                    padding: .3rem 1.5rem;
-                    border-radius: .6rem;
-                    margin-top: 2.5rem;
-                    transition-duration: .3s;
-                    p {
-                        color: @color-white;
-                    }
-
-                    &:hover {
-                        transform: scale(1.1);
-                    }
-
-                    &.block {
-                        pointer-events: none;
-                        opacity: .5;
-                        animation: none;
-                    }
-                }
-            }
-        }
-
-        .mao {
-            position: absolute;
-            top: 0rem;
-            right: 0;
-            height: 24rem;
-        }
-    }
-}
-
-.resp {
-    background-image: url(../../assets/img/bg1.png);
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    .bodyModal {
-        width: 62rem;
-        height: 36rem;
-        padding: 5rem 0 0 0;
-        display: flex;
-        flex-direction: column;
         align-items: center;
-        // justify-content: center;
-        position: relative;
+        flex-wrap: nowrap;
+        margin-top: 5rem;
+    }
 
+    &:after {
+        position: absolute;
+        z-index: -1;
+        width: 300vw;
+        height: 335vh;
+        top: -100vh;
+        left: -80vw;
+        content: '';
+        background-image: url(../../assets/img/pag03/fundo1.png);
+        transform-origin: 50% 50%;
+        transform-style: preserve-3d;
+        animation-name: splash;
+        transition: opacity 3s ease-in-out, transform 5s ease-in-out;
+        opacity: 0.06;
+        animation-duration: 15s;
+        animation-fill-mode: both;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        transform: rotateX(50deg) rotateZ(0deg) rotateY(0deg) translateY(-14%) translateX(-14%) translateZ(370px);
+
+        @keyframes splash {
+            0% {
+                background-position: 0% 0%;
+            }
+    
+            100% {
+                background-position: 0% -475px;
+            }
+        }
+    }
+
+    .coverData{
+        position: absolute;
+        transform: rotate(-5deg);
+        width: 13rem;
+        height: 13rem;
+        top: -2rem;
+        left: 2rem;
+        z-index: 3;
+    }
+
+    #cover {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border: 0.5rem solid #fff;
+        box-shadow: 0 -0.5rem 1rem -0.5rem rgba(0, 0, 0, .2);
+        box-shadow: -1px -2px 21px 1px rgba(0, 0, 0, 0.75);
+        top: 0;
+        left: 0;
+
+        &::before{
+            position: absolute;
+            background-color: #F2C61F;
+            background-image: url(../../assets/img/pag02/foto5.png);
+            background-size: cover;
+            content: '';
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            vertical-align: middle;
+            mask: url(../../assets/img/pag03/painting.png);
+        }
+    }
+
+    .dados{
+        position: relative;
+        width: 55rem;
+        height: 28rem;
+        background-color: #fff;
+        box-shadow: 0 -0.5rem 1rem -0.5rem rgba(0, 0, 0, .2);
+        z-index: 0;
+        padding: 2rem;
+
+        &::before{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            content: '';
+            background-image: url(../../assets/img/pag03/fundoCarta.png);
+            opacity: 0.3;
+        }
+
+        *{
+            color: rgb(38, 38, 38);
+            text-align: left;
+            font-weight: 400;
+        }
+
+        .infoD{
+            position: relative;
+
+            h4{
+                position: relative;
+                padding-left: 10rem;
+            }
+        }
         
 
-        .pers1,
-        .pers2 {
-            position: absolute;
-            left: 10rem;
-            bottom: 0;
-            height: 29rem;
+        .bold{
+            // color: rgb(7, 52, 14);
+            font-weight: 700;
+            font-family: "Caveat", cursive;
+            font-optical-sizing: auto;
+            font-style: normal;
+            font-size: 1.6rem ;
         }
 
-        .pers1 {
-            left: 8rem;
+        h4{
+            font-size: 2.6rem;
+            margin-bottom: 1rem;
+            font-weight: 400;
+            font-family: "Caveat", cursive;
+            font-optical-sizing: auto;
+            font-style: normal;
+
+            .bold {
+                font-size:inherit;
+            }
         }
 
-        .flex {
-            width: 47rem;
-            display: flex;
-            align-items: center;
-            gap: 2rem;
+        a{
+            cursor: pointer;
+            text-decoration:underline;
+            color: #004350;
+        }
 
-            .boxImg {
-                width: 45%;
+        p{
+            font-size: 1.3rem;
+            .datF{
+                position: relative;
+                padding-left: 0.5rem;
             }
+        }
+        .info{
+            margin: 1rem 0;
+            text-align: center;
+            padding: 0;
+            font-weight: bold;
+            font-size: 2.3rem;
+            font-weight: 400;
+            font-family: "Caveat", cursive;
+            font-optical-sizing: auto;
+            font-style: normal;
 
-            .boxtext {
-                h1 {
-                    color: @color-05;
-                    margin-bottom: 2rem;
-                }
-                p {
-                    color: @color-05;
-                }
-                p + p {
-                    margin-top: 1rem;
-                }
+            .bold {
+                font-size: inherit;
             }
+        }
 
-            .avancar {
-                background-color: @color-white;
-                padding: .3rem 1.5rem;
-                border-radius: .6rem;
-                margin-top: 2.5rem;
-                transition-duration: .3s;
-                p {
-                    color: @color-black;
-                }
-
-                &:hover {
-                    transform: scale(1.1);
-                }
-            }
+        .callGame{
+            position: relative;
+            width: 100%;
+            background-color: #d66e0f;
+            color: #0b2f2a;
+            padding: 0.5rem;
+            border-radius: 0.2rem;
+            text-align: center;
+            font-size: 2.2rem;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 0rem;
+            font-weight: 700;
+            font-family: "Caveat", cursive;
+            font-optical-sizing: auto;
         }
 
     }
 }
+
+
+
+
+
+

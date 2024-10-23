@@ -2,262 +2,63 @@
 @import '../../less/includes/fonts.less';
 
 body {
-    background-image: url(../../assets/img/bg1.png);
+    position: relative;
+    overflow: hidden;
     background-size: cover;
-    background-position: center;
+    text-align: center;
+    padding: 0em;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 0px;
+    border-bottom: none;
+    background-color: #00B5AD;
+    background-image: radial-gradient(farthest-corner, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.95));
+    transform-style: preserve-3d;
+    transform: translate3d(0, 0, 0);
+    transition: background-color 3s ease-in-out 2s;
+    perspective: 1000px;
 
-    .detalhe {
+
+    &:after {
         position: absolute;
-        width: 2.5rem;
-        height: 6rem;
-        object-fit: contain;
-        top: 8rem;
-        left: 0rem;
-        transform: scaleY(-1);
-    }
+        z-index: -1;
+        width: 300vw;
+        height: 335vh;
+        top: -100vh;
+        left: -80vw;
+        content: '';
+        background-image: url(../../assets/img/pag03/fundo1.png);
+        transform-origin: 50% 50%;
+        transform-style: preserve-3d;
+        animation-name: splash;
+        transition: opacity 3s ease-in-out, transform 5s ease-in-out;
+        opacity: 0.06;
+        animation-duration: 15s;
+        animation-fill-mode: both;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        transform: rotateX(50deg) rotateZ(0deg) rotateY(0deg) translateY(-14%) translateX(-14%) translateZ(370px);
+
+        @keyframes splash {
+            0% {
+                background-position: 0% 0%;
+            }
     
-    .body {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 64rem;
-        height: 36rem;
-        position: relative;
-
-        .baseMenu{
-            button {
-                background-color: @color-02;
-                padding: .3rem 2rem;
-                border-radius: .6rem;
-                margin-top: 2rem;
-        
-                p {
-                    margin: 0 !important;
-                }
-            }
-        }
-
-        
-        
-        .flexView {
-            margin-top: 5rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            // width: 55rem;
-
-            .boxImg {
-                position: absolute;
-                width: 50rem;
-                height: 28rem;
-                top: 5rem;
-                left: 16rem;
-
-                .plusX {
-                    position: absolute;
-                    width: 2rem;
-                    height: 2rem;
-                    object-fit: contain;
-                    cursor: pointer;
-
-                    .plusHit{
-                        position: relative;
-                        width: 100%;
-                        height: 100%;
-                        object-fit: contain;
-                    }
-
-                    &.plusX1{
-                        top: 22em;
-                        left: 17em;
-                    }
-                    &.plusX2 {
-                        top: 19em;
-                        left: 22.5em;
-                    }
-                    &.plusX3 {
-                        top: 15em;
-                        left: 29em;
-                    }
-                    &.plusX4 {
-                        top: 10.5em;
-                        left: 36.5em;
-                    }
-                }
-
-                .orquestraBase{
-                    position: relative;
-                    width: 100%;
-                    height: 100%;
-                    
-                    
-
-                    svg {
-                        position: absolute;
-                        width: 100%;
-                        height: 100%;
-                        object-fit: contain;
-                
-                        .hit {
-                            cursor: pointer;
-                            opacity: 0;
-                            z-index: 3;
-
-                            // &.hit1 {
-                            //     opacity: 1;
-                            // }
-                        }
-
-                        .fundo{
-
-                            &.fundo1 {
-                                opacity: 0;
-                                animation: fadeInSvg1 0.6s ease both;
-                                animation-delay: 1s;
-                            }
-                            &.fundo2 {
-                                opacity: 0;
-                                animation: fadeInSvg2 0.6s ease both;
-                                animation-delay: 1.3s;
-                            }
-                            &.fundo3 {
-                                opacity: 0;
-                                animation: fadeInSvg3 0.6s ease both;
-                                animation-delay: 1.6s;
-                            }
-                            &.fundo4 {
-                                opacity: 0;
-                                animation: fadeInSvg4 0.6s ease both;
-                                animation-delay: 1.9s;
-                            }
-
-                        }
-
-                        .fundoPB{
-                            filter: grayscale(100%);
-                        }
-                    }
-                }
-                
-            }
-
-            .boxInfo {
-                width: 16rem;
-                position: absolute;
-                top: 6rem;
-                left: 2rem;
-
-                .boxInfoBase{
-                    position: relative;
-                    left: 5rem;
-                }
-                
-                h1 {
-                    color: @color-05;
-                }
-                p {
-                    color: @color-white;
-                    margin-top: 1rem;
-                }
-                .subtext {
-                    font-size: .9rem;
-                    width: 100%;
-                    margin-top: 1rem;
-                    font-weight: bold;
-                }
-                
-                .cartaBtn{
-                    position: relative;
-                    display: flex;
-                    justify-content: space-around;
-                    align-items: center;
-                    width: 16rem;
-                    bottom: 1rem;
-                    left: 0;
-                    margin-top: 8rem;
-                    
-
-                    .cartaBase{
-                        position: relative;
-                        width: 8rem;
-                        height: 10rem;
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        gap: 1rem;
-                        cursor: pointer;
-                        
-                        
-
-                        .cartaInt{
-                            position: absolute;
-                            width: 100%;
-                            height: 100%;
-                            object-fit: contain;
-                        }
-
-                        .plusInt{
-                            position: absolute;
-                            width: 2rem;
-                            height: 2rem;
-                            object-fit: contain;
-                            top: 50%;
-                            left: 50%;
-                            margin-top: -0.75rem;
-                            margin-left: -1.25rem;
-                        }
-                        
-                    }
-                }
+            100% {
+                background-position: 0% -475px;
             }
         }
     }
-}
+    // header{
+    //     display: none;
+    // }
 
-@keyframes fadeInSvg1 {
-    0% {
-        opacity: 0;
-        transform: translate(0px, 459px);
+    iframe{
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        background-color: transparent;
     }
 
-    100% {
-        opacity: 1;
-        transform: translate(0px, 509px);
-    }
-}
-
-@keyframes fadeInSvg2 {
-    0% {
-        opacity: 0;
-        transform: translate(119px, 171px);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translate(119px, 221px);
-    }
-}
-
-@keyframes fadeInSvg3 {
-    0% {
-        opacity: 0;
-        transform: translate(315px, 207px);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translate(315px, 257px);
-    }
-}
-
-@keyframes fadeInSvg4 {
-    0% {
-        opacity: 0;
-        transform: translate(546px,-10px);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translate(546px,0);
-    }
 }

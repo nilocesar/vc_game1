@@ -20,7 +20,7 @@ html.full-iframe.mr-fontsize
 		.mr-full
 			block body
 			//- +controls()
-			//- +header()
+			+header()
 			//- +help()
 			
 		block body-after
@@ -46,6 +46,6 @@ html.full-iframe.mr-fontsize
 	//- +scriptScripts('ballonQuiz.js') 
 	+scriptScripts('modalSlide.js')
 	//- +scriptScripts('instrucoes.js')
-	//- +scriptScripts('game-control.js')
+	+scriptScripts('game-control.js')
 	+scriptModule('component.modal.js')
 	block scripts

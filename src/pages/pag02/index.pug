@@ -4,26 +4,35 @@ block styles
 	link(rel="stylesheet", href="style.css")
 
 block body
-	body(next-hide, menu-hide, next-page='page04')
+	body(next-hide, menu-hide)
 		.body
-			.boxInfo
-				.title
-					h1 Chegou um convite para você!
-					p Clique no envelope para abrir.
-				+image('detalhe1.svg', 'detalhe detalhe1')
-				+image('detalhe2.svg', 'detalhe detalhe2')
-				.containerCard
-					.base
-					.card
-						.cardRef
-							.cardBase
-								+image('pag02/carta.svg', 'carta')
-						.close
-							+image('closedOrange.svg', 'closed')
-					+image('pag02/env.png', 'env playerBase')
-					.top.playerBase
-					.player.playerBase.pulse 
-						+image('plus.svg', 'plus')
+			<div class="containerBase">
+				<div class="photo-frame step1">
+					+image('pag02/foto1.png', '')
+				</div>
+				<div class="photo-frame step2">
+					+image('pag02/foto2.png', '')
+				</div>
+				<div class="photo-frame step3">
+					+image('pag02/foto3.png', '')
+				</div>
+				<div class="photo-frame step4">
+					+image('pag02/foto4.png', '')
+				</div>
+				<div class="photo-frame step5">
+					+image('pag02/foto5.png', '')
+				</div>
+				<div class="photo-frame step6">
+					+image('pag02/personagem.png', '')
+				</div>
+			</div>
+			<div class="animation-wrapper">
+				<div class="particle particle-1"></div>
+				<div class="particle particle-2"></div>
+				<div class="particle particle-3"></div>
+				<div class="particle particle-4"></div>
+			</div>
+			
 					
 			
 			

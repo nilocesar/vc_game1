@@ -1,9 +1,11 @@
 mixin header()
     header
-        .logo
-            +image('logo.png', 'logotipo')
         .listMenu
-            button.helpBtn
-                +image('help.svg', '')
-            button.menuBtn(onclick="navigate.goto('pag04')")
-                +image('menu.svg', '')
+            button.btnAudio
+                +image('audio.svg', 'playAudio')
+                +image('audioPause.svg', 'pauseAudio hide')
+            button.btnFullscreen
+                +image('fullscreen.svg', '')
+            button.btnMap
+                +image('map.svg', '')
+            
