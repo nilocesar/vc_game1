@@ -1,12 +1,4 @@
 events.on("ready", function () {
-  $("header .helpBtn").on("click", function () {
-    $("#help").removeClass("hide");
-  });
-
-  $("#help .modal-closeHelp").on("click", function () {
-    $("#help").addClass("hide");
-  });
-
   var prevHide = $("body").attr("prev-hide");
   var nextHide = $("body").attr("next-hide");
   var menuHide = $("body").attr("menu-hide");

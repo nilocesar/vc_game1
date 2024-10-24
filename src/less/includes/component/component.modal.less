@@ -174,12 +174,83 @@
 	}
 
 	&#help {
+
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100vw;
+		height: 100vh;
+		overflow: hidden;
+		background-size: cover;
+		text-align: center;
+		padding: 0em;
+		color: rgba(255, 255, 255, 0.9);
+		margin-bottom: 0px;
+		border-bottom: none;
+		background-color: #00B5AD;
+		background-image: radial-gradient(farthest-corner, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.95));
+		transform-style: preserve-3d;
+		transform: translate3d(0, 0, 0);
+		transition: background-color 3s ease-in-out 2s;
+		perspective: 1000px;
+
+
+		.modal-close{
+			display: none;
+		}
+	
+	
+		&:after {
+			position: absolute;
+			z-index: -1;
+			width: 300vw;
+			height: 335vh;
+			top: -100vh;
+			left: -80vw;
+			content: '';
+			background-image: url(../assets/img/pag03/fundo1.png);
+			transform-origin: 50% 50%;
+			transform-style: preserve-3d;
+			animation-name: splash;
+			transition: opacity 3s ease-in-out, transform 5s ease-in-out;
+			opacity: 0.06;
+			animation-duration: 15s;
+			animation-fill-mode: both;
+			animation-timing-function: linear;
+			animation-iteration-count: infinite;
+			transform: rotateX(50deg) rotateZ(0deg) rotateY(0deg) translateY(-14%) translateX(-14%) translateZ(370px);
+	
+			@keyframes splash {
+				0% {
+					background-position: 0% 0%;
+				}
+	
+				100% {
+					background-position: 0% -475px;
+				}
+			}
+		}
 		
 		#helpInit {
+			// background-color: rgba(0, 168, 142, 0.4);
+			
+
+			&:after {
+				position: fixed;
+				z-index: -1;
+				width: 100vw;
+				height: 100vh;
+				top: 0;
+				left: 0;
+				content: '';
+				background-image: url(../assets/img/pag03/fundoCarta.png);
+				opacity: 0.1;
+			}
+
 			.bodyHelp {
 				width: 64rem;
 				height: 36rem;
-				padding: 4rem 4rem 0;
+				padding: 4rem 4rem;
 				display: flex;
 				flex-direction: column;
 				align-items: center;
@@ -200,65 +271,84 @@
 						width: 2.2rem;
 					}
 				}
-	
-				.logoHelp {
-					width: 8rem;
-					position: absolute;
-					margin-top: 0.1rem;
-					top: 1rem;
+				
+				.baseH{
+					position: relative;
+					width: 100%;
+					padding: 0.5rem 1rem;
+					text-align: center;
+					background-color: #fff;
+					h3 {
+						position: relative;
+						text-align: center;
+						color: #1c221e;
+						font-size: 2rem;
+						font-weight: bold;
+						text-transform: uppercase;
+					}
 				}
+				
+				
 	
-				p {
-					color: @color-white;
+
+				.subInfoD{
+					position: relative;
+					padding: 1rem;
+					background-color: rgba(0, 168, 142, 0.4);
+					border: 0.4rem solid #fff;
+					text-align: left;
+					color: #fff;
+					margin: 0.5rem 0 2rem 0;
+
+					h4{
+						position: relative;
+						width: 100%;
+						text-align: center;
+						font-weight: bold;
+						font-size: 1.8rem;
+						margin-bottom: 1rem;
+					}
+
+					a{
+						color: #fff;
+						text-decoration: underline;
+						font-weight: bold;
+					}
 				}
 
-				.prop-mt4{
-					margin-top: 4rem;
+				.subt{
+					position: relative;
+					padding: 0;
+					width: 50%;
+					color: #fff;
+					text-align: center;
 				}
+				
+				.controleHelp{
+
+					position: relative;
+					width: 100%;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					margin-top: 1rem;
+
+					.icoHelp {
+						position: relative;
+						width: 35rem;
+						object-fit: contain;
+					}
+					
+				}
+				
+
+
 	
 				.textHelp {
 					width: 100%;
 				}
 	
-				.flexIconsHelp {
-					display: flex;
-					justify-content: space-between;
-					width: 100%;
-					margin-top: 5rem;
-	
-					.cardHelp {
-						width: 7rem;
-						display: flex;
-						flex-direction: column;
-						align-items: center;
-	
-						.icoHelp {
-							width: 2.6rem;
-						}
-	
-						.boxTextHelp {
-							height: 2.8rem;
-							display: flex;
-							align-items: center;
-	
-							p {
-								text-transform: uppercase;
-								color: @color-05;
-								text-align: center;
-								margin-top: 1rem;
-								font-weight: bold;
-								font-size: 0.8rem;
-	
-								span {
-									color: @color-02;
-									font-weight: bold;
-								}
-							}
-						}
-	
-					}
-				}
-	
+				
 				.flexBottomHelp {
 					display: flex;
 					justify-content: space-between;

@@ -33,8 +33,14 @@ function controlFullscreen() {
 }
 
 function controlMenu() {
-  $("header .btnMap").on("click", function () {
-    navigate.goto("pag03");
+  $("header .btnHelp").on("click", function () {
+    $("#help").removeClass("hide");
+  });
+
+  $("#help .modal-closeHelp").on("click", function () {
+    $("#help").addClass("hide");
+    const iframe = document.getElementById("iframeGame");
+    iframe.focus();
   });
 }
 
