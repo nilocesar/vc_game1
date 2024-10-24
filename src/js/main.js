@@ -3,13 +3,13 @@ bridge.img_translate = null;
 bridge.videos_translate = null;
 bridge.links_translate = null;
 
-// $(window).on("beforeunload", function () {
-//   localStorage.clear();
-// });
+$(window).on("beforeunload", function () {
+  localStorage.clear();
+});
 
-// $(window).on("unload", function () {
-//   localStorage.clear();
-// });
+$(window).on("unload", function () {
+  localStorage.clear();
+});
 
 $(window).on(VIEW_EVENT.READY, function () {});
 
