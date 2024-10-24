@@ -1,1 +1,0 @@
-events.on("ready", function () {});

@@ -1,29 +1,25 @@
 extends ../../templates/page/template.page-base-adaptativo.pug
 
+
 block styles
 	link(rel="stylesheet", href="style.css")
 
 block body
-	body(prev-hide,next-hide, next-page="pag04")
+	body(next-hide, menu-hide)
 		.body
-			.line
-			.flexView
-				.boxInfo
-					h1.down O Espetáculo da Nossa Cultura!
-					p.down Nosso Espetáculo acontece graças às nossas lideranças e aos nossos colaboradores que, dia após dia, de nota em nota, dão vida aos nossos Valores Essenciais, que seguem, sempre, nosso Propósito!
-					p.down.inas Clique em + para interagir
-					
-				.boxImg
-					+orquestra2()
-					.plusX.plusX1.zoomIn.delay4(page='pag05a')
-						+image('plus.svg', 'plusHit pulse')
-					.plusX.plusX2.zoomIn.delay5(page='pag05b')
-						+image('plus.svg', 'plusHit pulse')
-					.plusX.plusX3.zoomIn.delay6(page='pag05c')
-						+image('plus.svg', 'plusHit pulse')
-					.plusX.plusX4.zoomIn.delay7(page='pag05d1')
-						+image('plus.svg', 'plusHit pulse')
-					
-				
+			.coverData.zoomIn.delay1
+				#cover
+					+image('pag02/personagem.png', '')
+			.dados.up
+				.infoD
+					h4 Oi amiguinho(a), o <span class="nome bold">Bento</span> vai fazer uma super festa de <span class="anos bold">4</span> anos e você não pode ficar de fora! Vai ter muita brincadeira, docinhos e diversão!
+					.subInfoD
+						p <span class="bold">Quando?</span> <span class="datF dia">2 de maio</span>
+						p <span class="bold">Que horas?</span> <span class="datF horas">às 17h</span>
+						p <span class="bold">Onde?</span> <span class="datF endereco"><a href="https://maps.app.goo.gl/jwZUNCvYU3R2jBHJA" target="_blank">Av. Afonso Pena, 1377 - Centro, Belo Horizonte - MG</a></span>
+						p.info Mas antes, vamos jogar essa grande aventura com o <span class="nome bold">Bento</span>.
+				button.pulse.callGame(onclick="navigate.next()") Jogar
+
 block scripts
+	+scriptScripts('gsap.min.js')
 	script(src="script.js")
