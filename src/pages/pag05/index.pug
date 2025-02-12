@@ -1,24 +1,21 @@
 extends ../../templates/page/template.page-base-adaptativo.pug
 
-
 block styles
 	link(rel="stylesheet", href="style.css")
 
 block body
-	body(next-hide, menu-hide)
+	body(prev-hide, next-hide, menu-hide)
 		.body
-			.coverData.zoomIn.delay1
-				#cover
-					+image('pag02/personagem.png', '')
-			.dados.up
-				.infoD
-					h4 Parabéns, amiguinho(a)! Muito obrigado por fazer parte dessa aventura. Agora, nosso próximo encontro será na minha festinha!
-					.subInfoD
-						p <span class="bold">Quando?</span> <span class="datF dia">2 de maio</span>
-						p <span class="bold">Que horas?</span> <span class="datF horas">às 17h</span>
-						p <span class="bold">Onde?</span> <span class="datF endereco"><a href="https://maps.app.goo.gl/jwZUNCvYU3R2jBHJA" target="_blank">Av. Afonso Pena, 1377 - Centro, Belo Horizonte - MG</a></span>
-						
-
+			<div class="containerBase">
+			<div class="animation-wrapper">
+				<div class="particle particle-1"></div>
+				<div class="particle particle-2"></div>
+				<div class="particle particle-3"></div>
+				<div class="particle particle-4"></div>
+			</div>
+			div.mobileBase
+				+image('mobile5.gif', 'mobile')
+				h1 Corra e pule com as Setas.
+			
 block scripts
-	+scriptScripts('gsap.min.js')
 	script(src="script.js")

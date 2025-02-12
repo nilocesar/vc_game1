@@ -1,7 +1,6 @@
 events.on("ready", function () {
   $(".body").on("click", function () {
-    bridge.statusAudio();
-    bridge.fullScreen();
+    bridge.fullScreen(true);
     navigate.next();
   });
 

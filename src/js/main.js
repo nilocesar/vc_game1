@@ -41,9 +41,9 @@ bridge.statusAudioInit = function () {
   $(".audioTrilha").attr("status", 1);
 };
 
-bridge.fullScreen = function () {
+bridge.fullScreen = function (full = null) {
   console.log("fullScreen");
-  if (document.fullscreenElement) {
+  if (document.fullscreenElement && full === null) {
     document.exitFullscreen();
   } else {
     console.log("fullScreen1");

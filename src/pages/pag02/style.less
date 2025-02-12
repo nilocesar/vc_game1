@@ -16,7 +16,11 @@ body {
     background-size: cover;
     background-position: center;
 
-    
+    header {
+        display: none;
+    }
+
+
     .body {
         position: relative;
         width: 100%;
@@ -25,156 +29,39 @@ body {
         justify-content: center;
         align-items: center;
 
-        .containerBase {
-            position: relative;
-            width: 100%;
-            height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+        .mobileBase{
+            position: absolute;
+            width: 25rem;
+            height: 25rem;
+            top: 50%;
+            left: 50%;
+            margin-top: -12.5rem;
+            margin-left: -12.5rem;
 
-            
-            .photo-frame {
-                padding: 0.5rem;
-                border: 0.1rem solid rgb(27, 26, 26);
-                position: absolute;
-                background: white;
-                box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-                box-shadow: -1px -2px 21px 1px rgba(0, 0, 0, 0.75);
-                transition: all .5s ease-in-out;
-                opacity: 0;
-                
-                &.step1 {
-                    // transform: rotate(-5deg);
-                    animation: step1 1s ease-out forwards;
-                    animation-delay: 0;
-                    @keyframes step1 {
-                    
-                        0% {
-                            transform: rotate(0deg) scale(1.5) translateY(30rem) translateX(30rem);
-                            opacity: 0;
-                        }
-            
-                        100% {
-                            transform: rotate(-5deg) scale(1) translateY(0) translateX(0rem);
-                            opacity: 1;
-                        }
-                    }
-                }
-                
-                &.step2{
-                    // transform: rotate(5deg);
-                    animation: step2 1s ease-out forwards;
-                    animation-delay: 0.5s;
-                
-                    @keyframes step2 {
-                
-                        0% {
-                            transform: rotate(0deg) scale(1.5) translateY(30rem) translateX(-30rem);
-                            opacity: 0;
-                        }
-                
-                        100% {
-                            transform: rotate(5deg) scale(1) translateY(0) translateX(0rem);
-                            opacity: 1;
-                        }
-                    }
-                    
-                }
-
-                &.step3 {
-                    // transform: rotate(-15deg);
-                    animation: step3 1s ease-out forwards;
-                    animation-delay: 1s;
-                
-                    @keyframes step3 {
-                
-                        0% {
-                            transform: rotate(0deg) scale(1.5) translateY(30rem) translateX(0rem);
-                            opacity: 0;
-                        }
-                
-                        100% {
-                            transform: rotate(-15deg) scale(1) translateY(0) translateX(0rem);
-                            opacity: 1;
-                        }
-                    }
-                    
-                }
-
-                &.step4 {
-                    animation: step4 1s ease-out forwards;
-                    animation-delay: 1.5s;
-                
-                    @keyframes step4 {
-                
-                        0% {
-                            transform: rotate(0deg) scale(1.5) translateY(15rem) translateX(10rem);
-                            opacity: 0;
-                        }
-                
-                        100% {
-                            transform: rotate(15deg) scale(1) translateY(0) translateX(0rem);
-                            opacity: 1;
-                        }
-                    }
-                    
-                }
-
-                &.step5 {
-                    animation: step5 1s ease-out forwards;
-                    animation-delay: 2s;
-
-                    @keyframes step5 {
-
-                        0% {
-                            transform: rotate(30deg) scale(2) translateY(30rem) translateX(0rem);
-                            opacity: 0;
-                        }
-
-                        100% {
-                            transform: rotate(0) scale(1) translateY(0) translateX(0rem);
-                            opacity: 1;
-                        }
-                    }
-
-                }
-
-                &.step6 {
-                    animation: step6 3s ease-in-out forwards;
-                    animation-delay: 3s;
-                    z-index: 9;
-
-                    @keyframes step6 {
-
-                        0% {
-                            transform: rotate(0deg) scale(1) translateY(0rem) translateX(0rem);
-                            opacity: 0;
-                        }
-
-                        100% {
-                            transform: rotate(10deg) scale(1.5) translateY(0) translateX(0rem);
-                            opacity: 1;
-                        }
-                    }
-
-                }
-                
-
-                img{
-                    position: relative;
-                    width: 15rem;
-                    height: 15rem;
-                    object-fit: cover;
-                }
+            .mobile {
+                position: relative;
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+                mix-blend-mode: lighten;
+                opacity: 0.3;
             }
-        
-    
+
+            h1{
+                position: relative;
+                width: 100%;
+                text-align: center;
+                color: #fff;
+                opacity: 0.3;
+                font-size: 2rem;
+                margin-top: -2rem;
+            }
         }
+
     }
 }
 
-.animation-wrapper{
+.animation-wrapper {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -266,68 +153,5 @@ body {
 
     to {
         transform: translateY(-2560px);
-    }
-}
-
-/**
- * CODEPEN PROMOTION
- * unrelated to particle system
- */
-.codepen-promo:active,
-.codepen-promo:hover,
-.codepen-promo:link,
-.codepen-promo:visited {
-    bottom: 30px;
-    display: block;
-    position: absolute;
-    right: 30px;
-    width: 200px;
-    z-index: 99;
-}
-
-.codepen-promo-image {
-    width: 100%;
-}
-
-.unsplash-promo:active,
-.unsplash-promo:hover,
-.unsplash-promo:link,
-.unsplash-promo:visited {
-    bottom: 30px;
-    display: block;
-    position: absolute;
-    left: 30px;
-    width: 400px;
-    z-index: 99;
-    color: #666;
-    text-decoration: none;
-}
-
-
-canvas {
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    width: 60rem !important;
-    height: 60rem !important;
-    // mix-blend-mode: multiply;
-    animation: step-canvas 3s ease forwards;
-    animation-delay: 3s;
-    opacity: 0;
-    z-index: 0;
-
-    @keyframes step-canvas {
-
-        0% {
-            opacity: 0;
-            transform: translateX(-50%) translateY(-50%) scale(0);
-        }
-
-        100% {
-            opacity: 1;
-            transform: translateX(-50%) translateY(-50%) scale(1);
-        }
     }
 }
