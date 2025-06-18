@@ -2,16 +2,23 @@ bridge.text_translate = null;
 bridge.img_translate = null;
 bridge.videos_translate = null;
 bridge.links_translate = null;
+bridge.dataUser = null;
 
-// $(window).on("beforeunload", function () {
-//   localStorage.clear();
-// });
+$(window).on("beforeunload", function () {
+  localStorage.clear();
+});
 
-// $(window).on("unload", function () {
-//   localStorage.clear();
-// });
+$(window).on("unload", function () {
+  localStorage.clear();
+});
 
-$(window).on(VIEW_EVENT.READY, function () {});
+$(window).on(VIEW_EVENT.READY, function () {
+  $.getJSON("./app/data/user.json", function (data) {
+    bridge.dataUser = data;
+
+    $(".audioTrilha").attr("src", data.trilha);
+  });
+});
 
 bridge.statusAudio = function () {
   // $(".audioTrilha")[0].volume = 0.02;
@@ -77,6 +84,13 @@ bridge.fullScreen = function (full = null) {
   }
 };
 
+bridge.fullScreenExit = function (full = null) {
+  console.log("exitFullscreen");
+  if (document.fullscreenElement && full === null) {
+    document.exitFullscreen();
+  }
+};
+
 bridge.fullScreenActive = function () {
   console.log("fullScreenActive");
   // Verificar se o Fullscreen API é suportado
@@ -105,4 +119,9 @@ bridge.fullScreenActive = function () {
   } else {
     console.warn("Fullscreen API não suportada.");
   }
+};
+
+bridge.linkEnd = function () {
+  bridge.fullScreenExit();
+  window.location.href = "https://www.venhacomemorar.com";
 };

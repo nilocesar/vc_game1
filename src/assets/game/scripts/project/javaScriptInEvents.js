@@ -31,9 +31,11 @@ function Tick(runtime)
 function completeFase()
 {
 	//
-	parent.postMessage('completeFase', '*');
+	setTimeout(() => {
+		parent.postMessage('completeFase', '*');
+	}, 1000 * 1 );
+	
 }
-
 
 const scriptsInEvents = {
 
@@ -41,8 +43,6 @@ const scriptsInEvents = {
 	{
 		completeFase()
 	}
-
 };
 
-self.C3.ScriptsInEvents = scriptsInEvents;
-
+globalThis.C3.JavaScriptInEvents = scriptsInEvents;

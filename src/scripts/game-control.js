@@ -3,7 +3,64 @@ events.on("ready", function () {
   controlFullscreen();
   controlMenu();
   resetSuspendata();
+  controlHelp();
 });
+
+function controlHelp() {
+  function formatarEvento(evento) {
+    const nomesMeses = [
+      "janeiro",
+      "fevereiro",
+      "março",
+      "abril",
+      "maio",
+      "junho",
+      "julho",
+      "agosto",
+      "setembro",
+      "outubro",
+      "novembro",
+      "dezembro",
+    ];
+
+    const dia = evento.day;
+    const mes = nomesMeses[evento.mês - 1];
+    const hora = evento.horas.toString().padStart(2, "0");
+    const minutos = evento.minutos;
+
+    const horaFormatada =
+      minutos > 0
+        ? `${hora}h${minutos.toString().padStart(2, "0")}`
+        : `${hora}h`;
+
+    const dataFormatada = `${dia} de ${mes}, às ${horaFormatada}.`;
+
+    const enderecoFormatado = `${evento.address}, ${evento.city} - ${evento.state}`;
+
+    $(".dateInfo").text(dataFormatada);
+    $("a.addressInfo").attr("href", evento.link).text(enderecoFormatado);
+  }
+
+  function controlAvatar() {
+    if (bridge.dataUser) {
+      var dataUser = bridge.dataUser;
+      var photo = dataUser.photos[dataUser.photos.length - 1];
+      var person = dataUser.person;
+
+      $("#cover .base").attr("src", photo);
+      $("#cover .person").attr("src", person);
+
+      $(".infoD h4").text(dataUser.textInit);
+      $(".infoK h4").text(dataUser.textEnd);
+
+      $(".nameBase").text(dataUser.name);
+
+      formatarEvento(dataUser.evento);
+    }
+  }
+
+  controlAvatar();
+}
 
 function controlAudio() {
   var audioObj = bridge.statusAudioObj();

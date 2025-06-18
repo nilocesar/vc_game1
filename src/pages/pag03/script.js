@@ -1,4 +1,21 @@
 events.on("ready", function () {
+  function criarPhotoFrames(imagens) {
+    const container = $(".containerBase");
+    container.empty(); // Limpa o conteúdo anterior, se necessário
+
+    imagens.forEach((src, index) => {
+      const stepClass = `step${index + 1}`;
+      const frame = $(`
+        <div class="photo-frame ${stepClass}">
+          <img src="${src}" />
+        </div>
+      `);
+      container.append(frame);
+    });
+  }
+
+  criarPhotoFrames([...bridge.dataUser.photos, bridge.dataUser.person]);
+
   effectCanvas();
 
   $(".step6").on("animationend", () => {

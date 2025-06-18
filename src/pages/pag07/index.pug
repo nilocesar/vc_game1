@@ -9,14 +9,17 @@ block body
 		.body
 			.coverData.zoomIn.delay1
 				#cover
-					+image('pag02/personagem.png', '')
+					<img class="base" src="" />
+					<img class="person" src="" />
 			.dados.up
-				.infoD
-					h4 Parabéns, amiguinho(a)!<br> Muito obrigado por fazer parte dessa aventura. Agora, nosso próximo encontro será na minha festinha!
+				.placa.nameBase.in.delay2
+				.infoK
+					h4 
 					.subInfoD
-						p <span class="bold">Data:</span> <span class="datF dia">2 de maio</span>, <span class="datF horas">às 17h</span>.
-						p <span class="bold">Local:</span> <span class="datF endereco"><a href="https://maps.app.goo.gl/jwZUNCvYU3R2jBHJA" target="_blank">Avenida Afonso Pena, número 1377 - Bairro Canta do Sul, Belo Horizonte - MG</a></span>
-						
+						p <span class="bold">Data:</span> <span class="datF dateInfo"></span>
+						p <span class="bold">Local:</span> <span class="datF endereco"><a class="addressInfo" target="_blank"></a></span>
+					.btnSaiContainer
+						.btnSair Sair
 
 block scripts
 	+scriptScripts('gsap.min.js')

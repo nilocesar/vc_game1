@@ -1,0 +1,26 @@
+{
+    "name": "Bento Lemos",
+    "age": "4",
+    "evento":{
+        "day": 2,
+        "mês": 5,
+        "horas": 14,
+        "minutos": 0,
+        "ano": 2025,
+        "address": "Avenida Afonso Pena, número 1377 - Bairro Canta do Sul",
+        "city": "Belo Horizonte",
+        "state": "Minas Gerais",
+        "link": "https://maps.app.goo.gl/jwZUNCvYU3R2jBHJA"
+    },
+    "photos": [
+        "../../assets/img/pag02/foto1.png", 
+        "../../assets/img/pag02/foto2.png",
+        "../../assets/img/pag02/foto3.png",
+        "../../assets/img/pag02/foto4.png",
+        "../../assets/img/pag02/foto5.png"
+    ],
+    "person": "../../assets/img/pag02/personagem.png",
+    "textInit": "Oi amiguinho(a), vai ter uma festa super divertida te esperando, com muitas brincadeiras e docinhos!",
+    "textEnd": "Parabéns, amiguinho(a)! Muito obrigado por fazer parte dessa aventura. Agora, nosso próximo encontro será na minha festinha!",
+    "trilha": "app/assets/audio/trilha.mp3"
+}

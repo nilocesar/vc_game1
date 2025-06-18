@@ -77,24 +77,20 @@ body {
         width: 100%;
         height: 100%;
         border: 0.5rem solid #fff;
-        box-shadow: 0 -0.5rem 1rem -0.5rem rgba(0, 0, 0, .2);
         box-shadow: -1px -2px 21px 1px rgba(0, 0, 0, 0.75);
         top: 0;
         left: 0;
 
-        &::before{
+        .base{
             position: absolute;
-            background-color: #F2C61F;
-            background-image: url(../../assets/img/pag02/foto5.png);
-            background-size: cover;
-            content: '';
             width: 100%;
             height: 100%;
+            object-fit: cover;
             top: 0;
             left: 0;
         }
 
-        img {
+        .person {
             width: 100%;
             height: 100%;
             object-fit: cover;
@@ -105,8 +101,8 @@ body {
 
     .dados{
         position: relative;
-        width: 55rem;
-        height: 28rem;
+        width: 60rem;
+        height: 30rem;
         background-color: #fff;
         box-shadow: 0 -0.5rem 1rem -0.5rem rgba(0, 0, 0, .2);
         z-index: 0;
@@ -128,14 +124,42 @@ body {
             text-align: left;
             font-weight: 400;
         }
+        
+        .placa{
+            position: absolute;
+            width: fit-content;
+            background-color: #d66e0f;
+            padding: 0.5rem 2rem;
+            font-size: 2rem;
+            color: #0b2f2a;
+            left: 18.5%;
+            top: -2.5rem;
+            font-weight: 700;
+            font-family: "Caveat", cursive;
+            font-optical-sizing: auto;
+            font-style: normal;
+            font-size: 3rem;
+            line-height: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: -1px -2px 21px 1px rgba(0, 0, 0, 0.75);
+        }
 
         .infoD{
             position: relative;
 
-            h4{
+
+
+            .dat{
                 position: relative;
-                padding-left: 10rem;
+                width: 100%;
+                padding-left: 11rem;
                 line-height: 1;
+                min-height: 9rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
 
             .subInfoD{
@@ -154,13 +178,25 @@ body {
             font-size: 1.6rem ;
         }
 
-        h4{
+        h3{
+            text-align: center;
+        }
+
+        h4,h3{
             font-size: 2.6rem;
-            margin-bottom: 1rem;
             font-weight: 400;
             font-family: "Caveat", cursive;
             font-optical-sizing: auto;
             font-style: normal;
+
+            b{
+                font-size: 2.6rem;
+                margin-bottom: 0;
+                font-weight: 400;
+                font-family: "Caveat", cursive;
+                font-optical-sizing: auto;
+                font-style: normal;
+            }
 
             .bold {
                 font-size:inherit;
@@ -182,11 +218,11 @@ body {
             }
         }
         .info{
-            margin: 1rem 0 1rem;
+            margin: 1rem 0;
             text-align: center;
             padding: 0;
             font-weight: bold;
-            font-size: 2.4rem;
+            font-size: 2.2rem;
             font-weight: 400;
             font-family: "Caveat", cursive;
             font-optical-sizing: auto;

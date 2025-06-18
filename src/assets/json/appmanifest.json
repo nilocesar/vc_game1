@@ -1,7 +1,7 @@
 {
-	"name": "bento",
-	"short_name": "Aniversário de Bento",
-	"description": "Oi amiguinho(a), o Bento vai fazer uma super festa de 4 anos e você não pode ficar de fora! Vai ter muita brincadeira, docinhos e diversão!",
+	"name": "Venha Comemorar",
+	"short_name": "Venha Comemorar",
+	"description": "Oi amiguinho(a), vai ter uma festa super divertida te esperando, com muitas brincadeiras e docinhos! Mas antes vamos jogar.",
 	"start_url": "index.html",
 	"display": "fullscreen",
 	"orientation": "landscape",

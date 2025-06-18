@@ -11,4 +11,8 @@ events.on("ready", function () {
     maskPosition: `-${(frames - 1) * 100}% 0%`,
     ease: `steps(${frames - 1})`,
   });
+
+  $(".btnSair").on("click", () => {
+    bridge.linkEnd();
+  });
 });
