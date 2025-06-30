@@ -1,6 +1,9 @@
 {
-    "name": "Bento Lemos",
-    "age": "4",
+    "name": "Bento",
+    "surname": "Lemos",
+    "id":"bento",
+    "age": 4,
+    "ageType": "year",
     "evento":{
         "day": 2,
         "mês": 5,
@@ -22,5 +25,7 @@
     "person": "../../assets/img/pag02/personagem.png",
     "textInit": "Oi amiguinho(a), vai ter uma festa super divertida te esperando, com muitas brincadeiras e docinhos!",
     "textEnd": "Parabéns, amiguinho(a)! Muito obrigado por fazer parte dessa aventura. Agora, nosso próximo encontro será na minha festinha!",
-    "trilha": "app/assets/audio/trilha.mp3"
+    "trilha": "app/assets/audio/trilha.mp3",
+    "player": "baby",
+    "scene": "pink"
 }

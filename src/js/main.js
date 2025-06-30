@@ -4,13 +4,13 @@ bridge.videos_translate = null;
 bridge.links_translate = null;
 bridge.dataUser = null;
 
-$(window).on("beforeunload", function () {
-  localStorage.clear();
-});
+// $(window).on("beforeunload", function () {
+//   localStorage.clear();
+// });
 
-$(window).on("unload", function () {
-  localStorage.clear();
-});
+// $(window).on("unload", function () {
+//   localStorage.clear();
+// });
 
 $(window).on(VIEW_EVENT.READY, function () {
   $.getJSON("./app/data/user.json", function (data) {

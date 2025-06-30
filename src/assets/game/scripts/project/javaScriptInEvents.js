@@ -10,6 +10,37 @@ runOnStartup(async runtime =>
 	runtime.addEventListener("beforeprojectstart", () => OnBeforeProjectStart(runtime));
 });
 
+function changePlayer(runtime)
+{
+	// Pega o parâmetro "player" da URL
+	const urlParams = new URLSearchParams(window.location.search);
+	const playerValue = urlParams.get("player");
+
+	// Verifica se o valor existe
+	if (playerValue !== null) {
+		// Altera a variável global "player"
+		// Acessa pelo runtime
+		runtime.globalVars.player = playerValue;
+	}
+}
+
+function changeScene(runtime)
+{
+	const urlParams = new URLSearchParams(window.location.search);
+	const sceneValue = urlParams.get("scene");
+
+	if (sceneValue !== null) {
+		// Lista de layouts válidos
+		const validLayouts = ["pink", "pinkBaby", "green", "greenBaby", "blue", "blueBaby"];
+
+		if (validLayouts.includes(sceneValue)) {
+			runtime.goToLayout(sceneValue);
+		} else {
+			console.warn(`Layout "${sceneValue}" não existe.`);
+		}
+	}
+}
+
 async function OnBeforeProjectStart(runtime)
 {
 	// Code to run just before 'On start of layout' on
@@ -19,6 +50,9 @@ async function OnBeforeProjectStart(runtime)
 	// 	runtime.addEventListener("mousedown", e => OnMouseDown(e, runtime));
 	document.body.style.backgroundColor = 'transparent';
 	runtime.addEventListener("tick", () => Tick(runtime));
+
+	changePlayer(runtime);
+	changeScene(runtime)
 }
 
 
@@ -30,7 +64,6 @@ function Tick(runtime)
 
 function completeFase()
 {
-	//
 	setTimeout(() => {
 		parent.postMessage('completeFase', '*');
 	}, 1000 * 1 );
@@ -39,7 +72,7 @@ function completeFase()
 
 const scriptsInEvents = {
 
-	async Esgame_Event74_Act1(runtime, localVars)
+	async Esgame_Event141_Act1(runtime, localVars)
 	{
 		completeFase()
 	}

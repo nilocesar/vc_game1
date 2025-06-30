@@ -70,6 +70,57 @@ body {
         top: -3rem;
         left: 1rem;
         z-index: 3;
+
+        .placa2 {
+                position: absolute;
+                width: fit-content;
+                background-color: #d66e0f;
+                padding: 0.5rem 1rem;
+                font-size: 2rem;
+                color: #fff;
+                right: 0;
+                bottom: 0;
+                font-weight: 700;
+                font-family: "Caveat", cursive;
+                font-optical-sizing: auto;
+                font-style: normal;
+                font-size: 2rem;
+                line-height: 1;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                box-shadow: -1px -2px 21px 1px rgba(0, 0, 0, 0.75);
+
+                span {
+                        font-weight: 700;
+                        font-family: "Caveat", cursive;
+                        font-optical-sizing: auto;
+                        font-style: normal;
+                        font-size: 2rem;
+                        letter-spacing: 0;
+                        // padding: 0.25em 0 0.325em;
+                        display: block;
+                        margin: 0 auto;
+                        text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
+                
+                        /* Clip Background Image */
+                
+                        background: url(../../assets/img/text-fill.png) repeat-y;
+                        background-clip: text;
+                
+                        /* Animate Background Image */
+                
+                        -webkit-text-fill-color: transparent;
+                        animation: aitf 80s linear infinite;
+                
+                        /* Activate hardware acceleration for smoother animations */
+                
+                       transform: translate3d(0, 0, 0);
+                       backface-visibility: hidden;
+                
+                        
+                    }
+            }
     }
 
     #cover {
@@ -98,6 +149,8 @@ body {
             mask: url(../../assets/img/pag03/painting.png);
         }
     }
+
+
 
     .dados{
         position: relative;
@@ -144,8 +197,22 @@ body {
             justify-content: center;
             align-items: center;
             box-shadow: -1px -2px 21px 1px rgba(0, 0, 0, 0.75);
+
+            *{
+                color: #0b2f2a;
+                font-weight: 700;
+                font-family: "Caveat", cursive;
+                font-optical-sizing: auto;
+                font-style: normal;
+                font-size: 3rem;
+                line-height: 1;
+            }
+
+            
         }
 
+        
+    
         .infoD{
             position: relative;
 
@@ -165,6 +232,15 @@ body {
             .subInfoD{
                 position: relative;
                 margin-top: 2rem;
+
+                p{
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    /* Limite de linhas */
+                    -webkit-box-orient: vertical;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
             }
         }
         
@@ -258,3 +334,12 @@ body {
 
 
 
+@keyframes aitf {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 100% 50%;
+    }
+}

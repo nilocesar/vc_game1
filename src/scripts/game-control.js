@@ -53,7 +53,22 @@ function controlHelp() {
       $(".infoD h4").text(dataUser.textInit);
       $(".infoK h4").text(dataUser.textEnd);
 
-      $(".nameBase").text(dataUser.name);
+
+      $(".dados .placa2").addClass("hide");
+
+      let ageType = "";
+      if (dataUser.ageType === 'year') {
+        ageType = dataUser.age === 1 ? 'ano' : 'anos';
+      }
+      if (dataUser.ageType === "month") {
+        ageType = dataUser.age === 1 ? "mês" : "meses";
+      }
+
+      if (dataUser.age){
+        $(".dados .placa2").removeClass("hide");
+      }
+      $(".nameBase").text(dataUser.name + " " + dataUser.surname);
+      $(".ageBase").text(dataUser.age + " " + ageType);
 
       formatarEvento(dataUser.evento);
     }
