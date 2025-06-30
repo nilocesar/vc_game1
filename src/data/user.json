@@ -2,14 +2,14 @@
     "name": "Bento",
     "surname": "Lemos",
     "id":"bento",
+    "responsible": "Matheus",
+    "phone": "(31) 98761-3463",
     "age": 4,
     "ageType": "year",
-    "evento":{
-        "day": 2,
-        "mês": 5,
-        "horas": 14,
-        "minutos": 0,
-        "ano": 2025,
+    "event":{
+        "date": "03/05/2025",
+        "hours": 14,
+        "minutes": 0,
         "address": "Avenida Afonso Pena, número 1377 - Bairro Canta do Sul",
         "city": "Belo Horizonte",
         "state": "Minas Gerais",
@@ -25,7 +25,7 @@
     "person": "../../assets/img/pag02/personagem.png",
     "textInit": "Oi amiguinho(a), vai ter uma festa super divertida te esperando, com muitas brincadeiras e docinhos!",
     "textEnd": "Parabéns, amiguinho(a)! Muito obrigado por fazer parte dessa aventura. Agora, nosso próximo encontro será na minha festinha!",
-    "trilha": "app/assets/audio/trilha.mp3",
+    "musical": "app/assets/audio/trilha.mp3",
     "player": "baby",
     "scene": "pink"
 }

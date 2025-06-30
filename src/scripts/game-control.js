@@ -7,7 +7,8 @@ events.on("ready", function () {
 });
 
 function controlHelp() {
-  function formatarEvento(evento) {
+  function formatarevent(event) {
+
     const nomesMeses = [
       "janeiro",
       "fevereiro",
@@ -23,22 +24,29 @@ function controlHelp() {
       "dezembro",
     ];
 
-    const dia = evento.day;
-    const mes = nomesMeses[evento.mês - 1];
-    const hora = evento.horas.toString().padStart(2, "0");
-    const minutos = evento.minutos;
+    console.log("event", event);
+    const [dia, mesBase, ano] = event.date.split("/");
+   
+    const mes = nomesMeses[parseInt(mesBase, 10) - 1];
+    const hour = event.hours.toString().padStart(2, "0");
+    const minutes = event.minutes;
 
-    const horaFormatada =
-      minutos > 0
-        ? `${hora}h${minutos.toString().padStart(2, "0")}`
-        : `${hora}h`;
+    const hourFormatada =
+      minutes > 0
+        ? `${hour}h${minutes.toString().padStart(2, "0")}`
+        : `${hour}h`;
 
-    const dataFormatada = `${dia} de ${mes}, às ${horaFormatada}.`;
+    const dataFormatada = `${parseInt(
+      dia,
+      10
+    )} de ${mes}, às ${hourFormatada}.`;
 
-    const enderecoFormatado = `${evento.address}, ${evento.city} - ${evento.state}`;
+    const enderecoFormatado = `${event.address}, ${event.city} - ${event.state}`;
+
+    console.log("dataFormatada", dataFormatada);
 
     $(".dateInfo").text(dataFormatada);
-    $("a.addressInfo").attr("href", evento.link).text(enderecoFormatado);
+    $("a.addressInfo").attr("href", event.link).text(enderecoFormatado);
   }
 
   function controlAvatar() {
@@ -54,7 +62,7 @@ function controlHelp() {
       $(".infoK h4").text(dataUser.textEnd);
 
 
-      $(".dados .placa2").addClass("hide");
+      $(".placa2").addClass("hide");
 
       let ageType = "";
       if (dataUser.ageType === 'year') {
@@ -65,12 +73,12 @@ function controlHelp() {
       }
 
       if (dataUser.age){
-        $(".dados .placa2").removeClass("hide");
+        $(".placa2").removeClass("hide");
       }
       $(".nameBase").text(dataUser.name + " " + dataUser.surname);
       $(".ageBase").text(dataUser.age + " " + ageType);
 
-      formatarEvento(dataUser.evento);
+      formatarevent(dataUser.event);
     }
   }
 
