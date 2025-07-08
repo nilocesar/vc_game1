@@ -2,12 +2,9 @@ events.on("ready", function () {
   const iframe = document.getElementById("iframeGame");
   iframe.focus();
 
-  console.log(bridge.dataUser);
-
   let player = '';
   let scene = "";
-  let data = '';
-
+  let sprite = '';
   
   if (bridge.dataUser.scene) {
     scene = `&scene=${bridge.dataUser.scene}`;
@@ -15,24 +12,21 @@ events.on("ready", function () {
 
   if (String(bridge.dataUser.player).toLowerCase() === "boy") {
     player = "?player=1";
+    sprite = `&boysSheet0=${bridge.dataUser.boysSheet0}&boysSheet1=${bridge.dataUser.boysSheet1}`;
   }
   if (String(bridge.dataUser.player).toLowerCase() === "baby") {
     player = "?player=2";
     scene = `&scene=${bridge.dataUser.scene+"Baby"}`;
+    sprite = `&babySheet0=${bridge.dataUser.babySheet0}`;
   }
   if (String(bridge.dataUser.player).toLowerCase() === "girl") {
     player = "?player=3";
+    sprite = `&girlSheet0=${bridge.dataUser.girlSheet0}&girlSheet1=${bridge.dataUser.girlSheet1}`;
   }
 
-  
-
-  if (bridge.dataUser.data) {
-    data = `&data=${bridge.dataUser.data}`;
-  }
-  
   $("#iframeGame").attr(
     "src",
-    `../../assets/game/index.html${player}${scene}${data}`
+    `../../assets/game/index.html${player}${scene}${sprite}`
   );
 
   window.addEventListener("message", function (event) {

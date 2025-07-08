@@ -43,7 +43,7 @@ function controlRef() {
       "dezembro",
     ];
 
-    console.log("event", event);
+    // console.log("event", event);
     const [dia, mesBase, ano] = event.date.split("/");
 
     const mes = nomesMeses[parseInt(mesBase, 10) - 1];
@@ -66,7 +66,7 @@ function controlRef() {
       event.complement ? event.complement + "," : ""
     } ${event.city} - ${event.state}`;
 
-    console.log("dataFormatada", dataFormatada);
+    // console.log("dataFormatada", dataFormatada);
 
     $(".dateInfo").text(dataFormatada);
     $("a.addressInfo").attr("href", link).text(enderecoFormatado);
@@ -75,7 +75,7 @@ function controlRef() {
   function controlAvatar() {
     if (bridge.dataUser) {
 
-      console.log("bridge.dataUser", bridge.dataUser);
+      // console.log("bridge.dataUser", bridge.dataUser);
       var dataUser = bridge.dataUser;
       var photo = dataUser.photos.main.croppedBlobUrl;
       var person = dataUser.person;
@@ -160,7 +160,7 @@ function controlMenu() {
 }
 
 function resetSuspendata() {
-  console.log("debug", navigate.currentScreen.model.debug);
+  // console.log("debug", navigate.currentScreen.model.debug);
 
   window.addEventListener("beforeunload", () => {
     if (navigate.currentScreen.model.debug) {

@@ -14,9 +14,9 @@ $(window).on("unload", function () {
 
 $(window).on(VIEW_EVENT.READY, function () {
 
-  console.log("window", window);
-  console.log("window.parent", window.parent);
-  console.log("window.parent.dataUser", window.parent.dataUser);
+  // console.log("window", window);
+  // console.log("window.parent", window.parent);
+  // console.log("window.parent.dataUser", window.parent.dataUser);
 
   if (window.parent.dataUser) {
     const data = window.parent.dataUser;
@@ -34,7 +34,7 @@ $(window).on(VIEW_EVENT.READY, function () {
 bridge.statusAudio = function () {
   // $(".audioTrilha")[0].volume = 0.02;
 
-  console.log("statusAudio", $(".audioTrilha").attr("status"));
+  // console.log("statusAudio", $(".audioTrilha").attr("status"));
 
   if ($(".audioTrilha").attr("status") == 0) {
     $(".audioTrilha")[0].play();
@@ -60,11 +60,11 @@ bridge.statusAudioInit = function () {
 };
 
 bridge.fullScreen = function (full = null) {
-  console.log("fullScreen");
+  // console.log("fullScreen");
   if (document.fullscreenElement && full === null) {
     document.exitFullscreen();
   } else {
-    console.log("fullScreen1");
+    // console.log("fullScreen1");
     // Verificar se o Fullscreen API é suportado
     let elem = document.documentElement; // ou outro elemento que você deseja colocar em tela cheia
 

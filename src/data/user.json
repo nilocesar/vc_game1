@@ -60,9 +60,8 @@
         "hours": 11,
         "minutes": 0
     },
-    "scene": "pink",
+    "scene": "green",
     "id": "",
-    "data": "https://venhacomemorar.s3.sa-east-1.amazonaws.com/users/ravi/data.json",
     "link": "https://www.google.com/maps/search/?api=1&query=Rua%20Edvaldo%20da%20Silva%20Brand%C3%A3o%2C%20301%2C%20ap%20201%2C%20Jardim%20Oceania%2C%20Jo%C3%A3o%20Pessoa%2C%20Para%C3%ADba",
     "musical": "https://venhacomemorar.s3.sa-east-1.amazonaws.com/users/ravi/musical.mp3",
     "person": "https://venhacomemorar.s3.sa-east-1.amazonaws.com/users/ravi/person.png",

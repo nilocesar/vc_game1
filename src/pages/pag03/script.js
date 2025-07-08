@@ -3,6 +3,7 @@ events.on("ready", function () {
 
   effectCanvas();
 
+  //Chama na ultima imagem
   $(".step5").on("animationend", () => {
     // do something
     setTimeout(() => {
