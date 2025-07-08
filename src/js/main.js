@@ -14,6 +14,10 @@ $(window).on("unload", function () {
 
 $(window).on(VIEW_EVENT.READY, function () {
 
+  console.log("window", window);
+  console.log("window.parent", window.parent);
+  console.log("window.parent.dataUser", window.parent.dataUser);
+
   if (window.parent.dataUser) {
     const data = window.parent.dataUser;
     bridge.dataUser = data;

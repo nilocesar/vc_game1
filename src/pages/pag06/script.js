@@ -6,9 +6,12 @@ events.on("ready", function () {
 
   let player = '';
   let scene = "";
-  let id = '';
+  let data = '';
 
   
+  if (bridge.dataUser.scene) {
+    scene = `&scene=${bridge.dataUser.scene}`;
+  }
 
   if (String(bridge.dataUser.player).toLowerCase() === "boy") {
     player = "?player=1";
@@ -22,17 +25,14 @@ events.on("ready", function () {
   }
 
   
-  if (bridge.dataUser.scene) {
-    scene = `&scene=${bridge.dataUser.scene}`;
-  }
 
-  if (bridge.dataUser.id) {
-    id = `&id=${bridge.dataUser.id}`;
+  if (bridge.dataUser.data) {
+    data = `&data=${bridge.dataUser.data}`;
   }
   
   $("#iframeGame").attr(
     "src",
-    `../../assets/game/index.html${player}${scene}${id}`
+    `../../assets/game/index.html${player}${scene}${data}`
   );
 
   window.addEventListener("message", function (event) {

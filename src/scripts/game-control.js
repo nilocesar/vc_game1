@@ -3,11 +3,30 @@ events.on("ready", function () {
   controlFullscreen();
   controlMenu();
   resetSuspendata();
-  controlHelp();
+  controlRef();
 });
 
-function controlHelp() {
-  function formatarevent(event) {
+function criarPhotoFrames(imagens) {
+  const container = $(".containerBasePhotos");
+  container.empty(); // Limpa o conteúdo anterior, se necessário
+
+  imagens.forEach((src, index) => {
+    const stepClass = `step${index + 1}`;
+    const frame = $(`
+      <div class="photo-frame ${stepClass}">
+        <img src="${src}" />
+      </div>
+    `);
+    container.append(frame);
+  });
+}
+
+function controlRef() {
+
+
+  function formatarevent(dataUser) {
+    const event = dataUser.event;
+    const link = dataUser.link;
 
     const nomesMeses = [
       "janeiro",
@@ -26,7 +45,7 @@ function controlHelp() {
 
     console.log("event", event);
     const [dia, mesBase, ano] = event.date.split("/");
-   
+
     const mes = nomesMeses[parseInt(mesBase, 10) - 1];
     const hour = event.hours.toString().padStart(2, "0");
     const minutes = event.minutes;
@@ -41,44 +60,60 @@ function controlHelp() {
       10
     )} de ${mes}, às ${hourFormatada}.`;
 
-    const enderecoFormatado = `${event.address}, ${event.city} - ${event.state}`;
+    const enderecoFormatado = `${event.address}, ${
+      event.neighborhood ? event.neighborhood + "," : ""
+    } ${event.houseNumber ? event.houseNumber + "," : ""} ${
+      event.complement ? event.complement + "," : ""
+    } ${event.city} - ${event.state}`;
 
     console.log("dataFormatada", dataFormatada);
 
     $(".dateInfo").text(dataFormatada);
-    $("a.addressInfo").attr("href", event.link).text(enderecoFormatado);
+    $("a.addressInfo").attr("href", link).text(enderecoFormatado);
   }
 
   function controlAvatar() {
     if (bridge.dataUser) {
+
+      console.log("bridge.dataUser", bridge.dataUser);
       var dataUser = bridge.dataUser;
-      var photo = dataUser.photos[dataUser.photos.length - 1];
+      var photo = dataUser.photos.main.croppedBlobUrl;
       var person = dataUser.person;
+
+      criarPhotoFrames([
+        dataUser.photos.small1.croppedBlobUrl,
+        dataUser.photos.small2.croppedBlobUrl,
+        dataUser.photos.small3.croppedBlobUrl,
+        photo,
+        person,
+      ]);
+
 
       $("#cover .base").attr("src", photo);
       $("#cover .person").attr("src", person);
 
-      $(".infoD h4").text(dataUser.textInit);
-      $(".infoK h4").text(dataUser.textEnd);
+      $(".infoD h4").text(dataUser.descriptionInit);
+      $(".infoK h4").text(dataUser.descriptionEnd);
 
 
       $(".placa2").addClass("hide");
 
       let ageType = "";
       if (dataUser.ageType === 'year') {
-        ageType = dataUser.age === 1 ? 'ano' : 'anos';
+        ageType = dataUser.birthday === 1 ? "ano" : "anos";
       }
       if (dataUser.ageType === "month") {
-        ageType = dataUser.age === 1 ? "mês" : "meses";
+        ageType = dataUser.birthday === 1 ? "mês" : "meses";
       }
 
       if (dataUser.age){
         $(".placa2").removeClass("hide");
       }
+      $(".nameBaseOnly").text(dataUser.name);
       $(".nameBase").text(dataUser.name + " " + dataUser.surname);
-      $(".ageBase").text(dataUser.age + " " + ageType);
+      $(".ageBase").text(dataUser.birthday + " " + ageType);
 
-      formatarevent(dataUser.event);
+      formatarevent(dataUser);
     }
   }
 

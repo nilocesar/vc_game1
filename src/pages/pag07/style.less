@@ -177,24 +177,36 @@ body {
         padding: 2rem;
 
         .placa {
+            max-width: 30rem;
             position: absolute;
             width: fit-content;
-            background-color: #d66e0f;
-            padding: 0.5rem 4rem;
-            font-size: 2rem;
-            color: #0b2f2a;
             left: 28.5%;
-            top: -2.5rem;
-            font-weight: 700;
-            font-family: "Caveat", cursive;
-            font-optical-sizing: auto;
-            font-style: normal;
-            font-size: 3rem;
-            line-height: 1;
+            top: -2.3rem;
+            height: 7rem;
+           
             display: flex;
             justify-content: center;
             align-items: center;
-            box-shadow: -1px -2px 21px 1px rgba(0, 0, 0, 0.75);
+
+            .placaBase{
+                position: relative;
+                width: 100%;
+                background-color: #d66e0f;
+                padding: 0.5rem 4rem;
+                font-size: 2rem;
+                color: #0b2f2a;
+                font-weight: 700;
+                font-family: "Caveat", cursive;
+                font-optical-sizing: auto;
+                font-style: normal;
+                font-size: 3rem;
+                line-height: 1;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                box-shadow: -1px -2px 21px 1px rgba(0, 0, 0, 0.75);
+            }
+            
         }
 
         &::before{
@@ -216,11 +228,13 @@ body {
 
         .infoK{
             position: relative;
-            padding-left: 10rem;
+            
 
             h4{
                 position: relative;
-                min-height: 13rem;
+                min-height: 11rem;
+                margin-top: 4rem;
+                padding-left: 18rem;
             }
         }
         
@@ -255,7 +269,7 @@ body {
         }
 
         .subInfoD{
-            margin-top: 2rem;
+            // margin-top: 2rem;
 
             p {
                 display: -webkit-box;

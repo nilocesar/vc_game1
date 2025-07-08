@@ -1,31 +1,76 @@
 {
-    "name": "Bento",
-    "surname": "Lemos",
-    "id":"bento",
-    "responsible": "Matheus",
-    "phone": "(31) 98761-3463",
-    "age": 4,
+    "responsible": "Nilo César Lemos de Castro",
+    "phone": "38998893657",
+    "name": "Ravi ",
+    "surname": "Rodrigues Ribeiro de Castro",
+    "birthday": 6,
     "ageType": "year",
-    "event":{
-        "date": "03/05/2025",
-        "hours": 14,
-        "minutes": 0,
-        "address": "Avenida Afonso Pena, número 1377 - Bairro Canta do Sul",
-        "city": "Belo Horizonte",
-        "state": "Minas Gerais",
-        "link": "https://maps.app.goo.gl/jwZUNCvYU3R2jBHJA"
+    "photos": {
+        "main": {
+            "area": {
+                "height": 600,
+                "width": 600,
+                "x": 0,
+                "y": 0
+            },
+            "originalBlobUrl": "https://venhacomemorar.s3.sa-east-1.amazonaws.com/users/ravi/main-original.png",
+            "croppedBlobUrl": "https://venhacomemorar.s3.sa-east-1.amazonaws.com/users/ravi/main-cropped.png"
+        },
+        "small1": {
+            "area": {
+                "height": 681,
+                "width": 681,
+                "x": 0,
+                "y": 44
+            },
+            "originalBlobUrl": "https://venhacomemorar.s3.sa-east-1.amazonaws.com/users/ravi/small1-original.png",
+            "croppedBlobUrl": "https://venhacomemorar.s3.sa-east-1.amazonaws.com/users/ravi/small1-cropped.png"
+        },
+        "small2": {
+            "area": {
+                "height": 681,
+                "width": 681,
+                "x": 0,
+                "y": 44
+            },
+            "originalBlobUrl": "https://venhacomemorar.s3.sa-east-1.amazonaws.com/users/ravi/small2-original.png",
+            "croppedBlobUrl": "https://venhacomemorar.s3.sa-east-1.amazonaws.com/users/ravi/small2-cropped.png"
+        },
+        "small3": {
+            "area": {
+                "height": 459,
+                "width": 459,
+                "x": 112,
+                "y": 173
+            },
+            "originalBlobUrl": "https://venhacomemorar.s3.sa-east-1.amazonaws.com/users/ravi/small3-original.png",
+            "croppedBlobUrl": "https://venhacomemorar.s3.sa-east-1.amazonaws.com/users/ravi/small3-cropped.png"
+        }
     },
-    "photos": [
-        "../../assets/img/pag02/foto1.png", 
-        "../../assets/img/pag02/foto2.png",
-        "../../assets/img/pag02/foto3.png",
-        "../../assets/img/pag02/foto4.png",
-        "../../assets/img/pag02/foto5.png"
-    ],
-    "person": "../../assets/img/pag02/personagem.png",
-    "textInit": "Oi amiguinho(a), vai ter uma festa super divertida te esperando, com muitas brincadeiras e docinhos!",
-    "textEnd": "Parabéns, amiguinho(a)! Muito obrigado por fazer parte dessa aventura. Agora, nosso próximo encontro será na minha festinha!",
-    "musical": "app/assets/audio/trilha.mp3",
-    "player": "baby",
-    "scene": "pink"
+    "descriptionInit": "Teste, vai ter uma festa super divertida te esperando, com muitas brincadeiras e docinhos!",
+    "descriptionEnd": "teste! Muito obrigado por fazer parte dessa aventura. Agora, nosso próximo encontro será na minha festinha!",
+    "event": {
+        "address": "Rua Edvaldo da Silva Brandão",
+        "neighborhood": "Jardim Oceania",
+        "houseNumber": "301",
+        "complement": "ap 201",
+        "city": "João Pessoa",
+        "state": "Paraíba",
+        "date": "18/07/2025",
+        "hours": 11,
+        "minutes": 0
+    },
+    "scene": "pink",
+    "id": "",
+    "data": "https://venhacomemorar.s3.sa-east-1.amazonaws.com/users/ravi/data.json",
+    "link": "https://www.google.com/maps/search/?api=1&query=Rua%20Edvaldo%20da%20Silva%20Brand%C3%A3o%2C%20301%2C%20ap%20201%2C%20Jardim%20Oceania%2C%20Jo%C3%A3o%20Pessoa%2C%20Para%C3%ADba",
+    "musical": "https://venhacomemorar.s3.sa-east-1.amazonaws.com/users/ravi/musical.mp3",
+    "person": "https://venhacomemorar.s3.sa-east-1.amazonaws.com/users/ravi/person.png",
+    "boysSheet0": null,
+    "boysSheet1": null,
+    "girlSheet0": "https://venhacomemorar.s3.sa-east-1.amazonaws.com/users/ravi/girlSheet0.png",
+    "girlSheet1": "https://venhacomemorar.s3.sa-east-1.amazonaws.com/users/ravi/girlSheet1.png",
+    "babySheet0": null,
+    "player": "girl"
 }
+  

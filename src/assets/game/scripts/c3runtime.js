@@ -1,10 +1,7 @@
 const urlParams = new URLSearchParams(window.location.search);
-const IDValue = urlParams.get("id");
-let dataJsonRef = 'data.json'; 
+const DATAValue = urlParams.get("data");
+const dataJsonRef = DATAValue ? DATAValue : "data.json"; 
 
-if (IDValue !== null) {
-	dataJsonRef = `https://s3.sa-east-1.amazonaws.com/www.nilocesar.eu/2025/vc-sheets/${IDValue}/data.json`;
-}
 
 console.log("dataJsonRef", dataJsonRef);
 

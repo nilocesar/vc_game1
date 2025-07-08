@@ -177,28 +177,25 @@ body {
             text-align: left;
             font-weight: 400;
         }
-        
-        .placa{
+
+        .placa {
+            max-width: 35rem;
             position: absolute;
             width: fit-content;
-            background-color: #d66e0f;
-            padding: 0.5rem 2rem;
-            font-size: 2rem;
-            color: #0b2f2a;
             left: 18.5%;
             top: -2.5rem;
-            font-weight: 700;
-            font-family: "Caveat", cursive;
-            font-optical-sizing: auto;
-            font-style: normal;
-            font-size: 3rem;
-            line-height: 1;
+            height: 7rem;
+            // background-color: red;
             display: flex;
             justify-content: center;
             align-items: center;
-            box-shadow: -1px -2px 21px 1px rgba(0, 0, 0, 0.75);
 
-            *{
+            .placaBase {
+                position: relative;
+                width: 100%;
+                background-color: #d66e0f;
+                padding: 0.5rem 4rem;
+                font-size: 2rem;
                 color: #0b2f2a;
                 font-weight: 700;
                 font-family: "Caveat", cursive;
@@ -206,22 +203,27 @@ body {
                 font-style: normal;
                 font-size: 3rem;
                 line-height: 1;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                box-shadow: -1px -2px 21px 1px rgba(0, 0, 0, 0.75);
             }
 
-            
         }
+        
+        
 
         
     
         .infoD{
             position: relative;
-
+            margin-top: 1rem;
 
 
             .dat{
                 position: relative;
                 width: 100%;
-                padding-left: 11rem;
+                padding-left: 12rem;
                 line-height: 1;
                 min-height: 9rem;
                 display: flex;
@@ -231,7 +233,7 @@ body {
 
             .subInfoD{
                 position: relative;
-                margin-top: 2rem;
+                // margin-top: 2rem;
 
                 p{
                     display: -webkit-box;
@@ -259,14 +261,14 @@ body {
         }
 
         h4,h3{
-            font-size: 2.6rem;
+            font-size: 2.4rem;
             font-weight: 400;
             font-family: "Caveat", cursive;
             font-optical-sizing: auto;
             font-style: normal;
 
             b{
-                font-size: 2.6rem;
+                font-size: 2.4rem;
                 margin-bottom: 0;
                 font-weight: 400;
                 font-family: "Caveat", cursive;
