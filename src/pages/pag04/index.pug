@@ -20,11 +20,14 @@ block body
 				.infoD
 					.dat
 						h4
-					//- h4 Oi amiguinho(a), o <span class="nome bold">Bento</span> vai fazer uma super festa de <span class="anos bold">4</span> anos e você não pode ficar de fora! Vai ter muita brincadeira, docinhos e diversão!
 					.subInfoD
 						p <span class="bold">Data:</span> <span class="datF dateInfo"></span>
-						p <span class="bold">Local:</span> <span class="datF endereco"><a  class="addressInfo" target="_blank"></a></span>
-						p.info Mas antes, vamos jogar essa grande aventura com o <span class="nome bold nameBaseOnly"></span>.
+						p <span class="bold">Local:</span> 
+							<span class="datF endereco">
+								<a  class="addressInfo" target="_blank"></a>
+								<a class="googleMapInfo" target="_blank">Google Maps</a>
+							</span>
+						p.info Mas antes, vamos jogar essa grande aventura com <span class="nome bold nameBaseOnly"></span>.
 				button.pulse.callGame(onclick="navigate.next()") Jogar
 
 block scripts

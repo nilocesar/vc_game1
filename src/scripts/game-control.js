@@ -69,7 +69,8 @@ function controlRef() {
     // console.log("dataFormatada", dataFormatada);
 
     $(".dateInfo").text(dataFormatada);
-    $("a.addressInfo").attr("href", link).text(enderecoFormatado);
+    $("a.addressInfo").attr("href", link).html(enderecoFormatado);
+    $("a.googleMapInfo").attr("href", link);
   }
 
   function controlAvatar() {
