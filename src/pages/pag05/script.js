@@ -1,5 +1,5 @@
 events.on("ready", function () {
-  // setTimeout(() => {
-  //   navigate.next();
-  // }, 1000 * 6.5);
+  setTimeout(() => {
+    navigate.next();
+  }, 1000 * 6.5);
 });
