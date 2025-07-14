@@ -31,20 +31,27 @@ body {
 
         .mobileBase {
             position: absolute;
-            width: 35rem;
-            height: 35rem;
-            top: 50%;
+            width: 100%;
+            height: 100%;
+            bottom: 0%;
             left: 50%;
-            margin-top: -17.5rem;
-            margin-left: -17.5rem;
+            // margin-top: -17.5rem;
+            // margin-left: -17.5rem;
+            transform: translateX(-50%);
+                
+           
+
+            &.mobileBaseX{
+                mix-blend-mode: lighten;
+                opacity: 0.6;
+            }
 
             .mobile {
                 position: relative;
                 width: 100%;
                 height: 100%;
                 object-fit: contain;
-                mix-blend-mode: lighten;
-                opacity: 0.6;
+                
             }
 
             h1 {
@@ -156,91 +163,117 @@ body {
     }
 }
 
+.titleB {
+    position: absolute;
+    top: 9rem;
+    width: 25rem;
+    left: 19.4rem;
+    color: #939588;
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    animation: float 6s ease-in-out infinite;
+    animation-delay: 1s;
+}
 
 .setLeft{
     position: absolute;
-    top: 28.5rem;
-    left: 0rem;
-    color: #d66e0f;
+    top: 27.5rem;
+    left: 17.5rem;
+    color: #ffffff;
     font-weight: bold;
-    font-size: 1.8rem;
-    text-align: right;
-    animation: float 6s ease-in-out infinite;
-    animation-delay: 1s;
+    font-size: 1.7rem;
+    line-height: 1;
+    text-align: center;
+
+    span{
+        color: #d66e0f;
+        font-weight: bold;
+    }
+   
+    // animation: float 6s ease-in-out infinite;
+    // animation-delay: 1s;
 
     &::before{
         position: absolute;
         content: '';
-        /* border-top: 0.25rem solid #d66e0f; */
-        border-left: 0.25rem dotted #d66e0f;
+       
+        border-left: 0.25rem dotted #fff;
         width: 5rem;
-        height: 9rem;
-        left: 9rem;
-        top: -9rem;
+        height: 4rem;
+        left: 6rem;
+        top: -4rem;
     }
 
 }
 
-.setRight {
-    position: absolute;
-    top: 23rem;
-    left: 13.2rem;
-    color: #d66e0f;
-    font-weight: bold;
-    font-size: 1.8rem;
-    text-align: center;
-    animation: float 6s ease-in-out infinite;
-    animation-delay: 2s;
+// .setRight {
+//     position: absolute;
+//     top: 30.5rem;
+//     left: 15.5rem;
+//     color: #939588;
+//     font-weight: bold;
+//     font-size: 1.6rem;
+//     line-height: 1;
+//     text-align: left;
+//     // animation: float 6s ease-in-out infinite;
+//     // animation-delay: 2s;
 
-    &::before {
-        position: absolute;
-        content: '';
-        border-top: 0.25rem dotted #d66e0f;
-        border-right: 0.25rem dotted #d66e0f;
-        width: 5.5rem;
-        height: 5rem;
-        right: 4rem;
-        top: -5rem;
-    }
+//     &::before {
+//         position: absolute;
+//         content: '';
+//         // border-top: 0.25rem dotted #d66e0f;
+//         border-right: 0.25rem dotted #939588;
+//         width: 5rem;
+//         height: 7rem;
+//         right: 4rem;
+//         top: -7rem;
+//     }
 
-}
+// }
 
 .setUp {
     position: absolute;
     top: 28.5rem;
-    left: 24rem;
-    width: 30rem;
-    color: #d66e0f;
+    left: 31rem;
+    width: 20rem;
+    color: #ffffff;
     font-weight: bold;
-    font-size: 1.8em;
-    text-align: left;
-    animation: float 6s ease-in-out infinite;
-    animation-delay: 3s;
+    font-size: 1.7em;
+    line-height: 1;
+    text-align: center;
+    // animation: float 6s ease-in-out infinite;
+    // animation-delay: 3s;
+
+    span {
+            color: #d66e0f;
+            font-weight: bold;
+        }
 
     &::before {
         position: absolute;
         content: '';
         /* border-top: 0.25rem solid #d66e0f; */
-        border-left: 0.25rem dotted #d66e0f;
+        border-left: 0.25rem dotted #fff;
         opacity: 0.8;
         width: 5rem;
-        height: 8.5rem;
-        left: 0.5rem;
-        top: -9rem;
+        height: 4rem;
+        left: 11rem;
+        top: -4rem;
     }
 
 }
 
 @keyframes float {
     0% {
-        transform: translateY(0px);
+        transform: translateY(0px) scale(1);
     }
 
     50% {
-        transform: translateY(-0.3rem);
+        transform: translateY(-0.5rem) scale(0.9);
     }
 
     100% {
-        transform: translateY(0px);
+        transform: translateY(0px) scale(1);
     }
 }

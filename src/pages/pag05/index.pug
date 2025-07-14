@@ -12,11 +12,14 @@ block body
 				.particle.particle-2
 				.particle.particle-3
 				.particle.particle-4
-			div.mobileBase
-				+image('mobile5.gif', 'mobile')
-				.setLeft.up.delay2 Corra para<br> a esquerda
-				.setRight.right.delay2 Corra para<br> a direita 
-				.setUp.up.delay2 Pule com<br> o personagem
+			div.mobileBase.mobileBaseX
+				
+				video.up.mobile(src="../../assets/video/tutorial.mp4" muted autoplay loop )
+			div.mobileBase.in.delay1
+				.titleB Veja como Jogar no Celular
+				.setLeft Botões para<br> <span>correr</span>  com<br> o personagem
+				//- .setRight Corra<br> para a<br> direita 
+				.setUp.in.delay2 Botão para<br> <span>pular</span> com<br> o personagem
 				//- h1 Corra e pule com as Setas.
 			
 block scripts
