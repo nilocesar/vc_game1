@@ -447,7 +447,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet3.png",
-                  706706,
+                  842563,
                   261,
                   1537,
                   128,
@@ -492,7 +492,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet3.png",
-                  706706,
+                  842563,
                   391,
                   1537,
                   128,
@@ -537,7 +537,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet3.png",
-                  706706,
+                  842563,
                   215,
                   1025,
                   200,
@@ -599,7 +599,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet3.png",
-                  706706,
+                  842563,
                   677,
                   1537,
                   128,
@@ -644,7 +644,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet3.png",
-                  706706,
+                  842563,
                   417,
                   1051,
                   200,
@@ -704,8 +704,8 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet3.png",
-                  706706,
-                  131,
+                  842563,
+                  391,
                   1793,
                   128,
                   128,
@@ -753,8 +753,8 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet3.png",
-                  706706,
-                  261,
+                  842563,
+                  131,
                   1793,
                   128,
                   128,
@@ -771,8 +771,8 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/shared-0-sheet3.png",
-                  706706,
-                  391,
+                  842563,
+                  261,
                   1793,
                   128,
                   128,
@@ -819,7 +819,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet3.png",
-                  706706,
+                  842563,
                   807,
                   1398,
                   128,
@@ -864,7 +864,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet3.png",
-                  706706,
+                  842563,
                   807,
                   1398,
                   128,
@@ -909,7 +909,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet3.png",
-                  706706,
+                  842563,
                   1,
                   1793,
                   128,
@@ -954,7 +954,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet3.png",
-                  706706,
+                  842563,
                   261,
                   1537,
                   128,
@@ -999,7 +999,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet3.png",
-                  706706,
+                  842563,
                   961,
                   1537,
                   281,
@@ -1014,7 +1014,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/shared-0-sheet3.png",
-                  706706,
+                  842563,
                   859,
                   779,
                   335,
@@ -1059,7 +1059,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet3.png",
-                  706706,
+                  842563,
                   391,
                   1537,
                   128,
@@ -1104,7 +1104,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet3.png",
-                  706706,
+                  842563,
                   521,
                   1793,
                   128,
@@ -1149,7 +1149,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet3.png",
-                  706706,
+                  842563,
                   521,
                   1793,
                   128,
@@ -1198,7 +1198,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet3.png",
-                  706706,
+                  842563,
                   1,
                   387,
                   272,
@@ -1224,7 +1224,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet3.png",
-                  706706,
+                  842563,
                   275,
                   387,
                   272,
@@ -1250,7 +1250,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet3.png",
-                  706706,
+                  842563,
                   549,
                   387,
                   272,
@@ -1276,7 +1276,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet3.png",
-                  706706,
+                  842563,
                   1,
                   662,
                   272,
@@ -1302,7 +1302,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet3.png",
-                  706706,
+                  842563,
                   275,
                   662,
                   272,
@@ -1347,8 +1347,8 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet3.png",
-                  706706,
-                  131,
+                  842563,
+                  391,
                   1793,
                   128,
                   128,
@@ -1392,7 +1392,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet3.png",
-                  706706,
+                  842563,
                   215,
                   1281,
                   200,
@@ -1456,7 +1456,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet3.png",
-                  706706,
+                  842563,
                   961,
                   1537,
                   281,
@@ -1471,7 +1471,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/shared-0-sheet3.png",
-                  706706,
+                  842563,
                   897,
                   1537,
                   273,
@@ -1516,7 +1516,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet3.png",
-                  706706,
+                  842563,
                   651,
                   1793,
                   128,
@@ -1561,7 +1561,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet4.png",
-                  83822,
+                  94174,
                   249,
                   1,
                   191,
@@ -1606,7 +1606,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet3.png",
-                  706706,
+                  842563,
                   963,
                   779,
                   279,
@@ -1651,7 +1651,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet3.png",
-                  706706,
+                  842563,
                   859,
                   1116,
                   150,
@@ -1717,7 +1717,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet3.png",
-                  706706,
+                  842563,
                   619,
                   1281,
                   150,
@@ -1750,7 +1750,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/shared-0-sheet3.png",
-                  706706,
+                  842563,
                   1,
                   1281,
                   150,
@@ -1813,7 +1813,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-1-sheet0.png",
-                  101979,
+                  132663,
                   303,
                   1,
                   150,
@@ -1876,7 +1876,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/coins-sheet0.png",
-                  11530,
+                  13774,
                   1,
                   1,
                   50,
@@ -1895,7 +1895,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/coins-sheet0.png",
-                  11530,
+                  13774,
                   65,
                   1,
                   50,
@@ -1913,7 +1913,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/coins-sheet0.png",
-                  11530,
+                  13774,
                   1,
                   65,
                   50,
@@ -1932,7 +1932,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/coins-sheet0.png",
-                  11530,
+                  13774,
                   65,
                   65,
                   50,
@@ -1950,7 +1950,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/shared-1-sheet1.png",
-                  19873,
+                  25350,
                   74,
                   1,
                   52,
@@ -1976,7 +1976,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/shared-1-sheet1.png",
-                  19873,
+                  25350,
                   67,
                   131,
                   51,
@@ -2007,7 +2007,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/shared-1-sheet1.png",
-                  19873,
+                  25350,
                   74,
                   69,
                   53,
@@ -2033,7 +2033,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/shared-1-sheet1.png",
-                  19873,
+                  25350,
                   1,
                   1,
                   71,
@@ -2087,7 +2087,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet4.png",
-                  83822,
+                  94174,
                   119,
                   193,
                   50,
@@ -2139,7 +2139,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet4.png",
-                  83822,
+                  94174,
                   171,
                   193,
                   52,
@@ -2178,7 +2178,7 @@ window.venhacomemorar = () => {
           [],
           0,
           0,
-          ["images/shared-0-sheet3.png", 706706, 259, 1, 256, 384, false],
+          ["images/shared-0-sheet3.png", 842563, 259, 1, 256, 384, false],
           null,
           [],
           false,
@@ -2278,7 +2278,7 @@ window.venhacomemorar = () => {
           [],
           0,
           0,
-          ["images/shared-0-sheet3.png", 706706, 517, 1, 256, 384, false],
+          ["images/shared-0-sheet3.png", 842563, 517, 1, 256, 384, false],
           null,
           [],
           false,
@@ -2378,7 +2378,7 @@ window.venhacomemorar = () => {
           [],
           0,
           0,
-          ["images/shared-0-sheet3.png", 706706, 1, 1, 256, 384, false],
+          ["images/shared-0-sheet3.png", 842563, 1, 1, 256, 384, false],
           null,
           [],
           false,
@@ -2491,7 +2491,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-1-sheet0.png",
-                  101979,
+                  132663,
                   129,
                   897,
                   114,
@@ -2506,7 +2506,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/shared-1-sheet0.png",
-                  101979,
+                  132663,
                   303,
                   257,
                   128,
@@ -2521,7 +2521,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/shared-1-sheet2.png",
-                  253,
+                  324,
                   1,
                   33,
                   16,
@@ -2536,7 +2536,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/shared-1-sheet0.png",
-                  101979,
+                  132663,
                   1,
                   513,
                   256,
@@ -2551,7 +2551,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/shared-1-sheet1.png",
-                  19873,
+                  25350,
                   65,
                   193,
                   32,
@@ -2566,7 +2566,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/shared-1-sheet1.png",
-                  19873,
+                  25350,
                   1,
                   75,
                   64,
@@ -2611,7 +2611,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-1-sheet2.png",
-                  253,
+                  324,
                   1,
                   33,
                   16,
@@ -2643,7 +2643,7 @@ window.venhacomemorar = () => {
           [],
           0,
           0,
-          ["images/shared-0-sheet2.png", 373216, 723, 1, 1024, 512, false],
+          ["images/shared-0-sheet2.png", 589555, 723, 1, 1024, 512, false],
           null,
           [],
           false,
@@ -2674,7 +2674,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet4.png",
-                  83822,
+                  94174,
                   57,
                   193,
                   60,
@@ -2719,7 +2719,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet3.png",
-                  706706,
+                  842563,
                   823,
                   1,
                   387,
@@ -2734,7 +2734,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/shared-0-sheet3.png",
-                  706706,
+                  842563,
                   823,
                   390,
                   387,
@@ -2749,7 +2749,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/shared-0-sheet3.png",
-                  706706,
+                  842563,
                   549,
                   662,
                   387,
@@ -2764,7 +2764,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/shared-0-sheet3.png",
-                  706706,
+                  842563,
                   704,
                   779,
                   387,
@@ -2809,7 +2809,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet0.png",
-                  1185651,
+                  1611931,
                   1445,
                   1,
                   711,
@@ -2841,7 +2841,7 @@ window.venhacomemorar = () => {
           [],
           0,
           0,
-          ["images/shared-0-sheet2.png", 373216, 723, 1, 1024, 512, false],
+          ["images/shared-0-sheet2.png", 589555, 723, 1, 1024, 512, false],
           null,
           [],
           false,
@@ -2859,7 +2859,7 @@ window.venhacomemorar = () => {
           [],
           0,
           0,
-          ["images/shared-0-sheet2.png", 373216, 723, 1, 1024, 512, false],
+          ["images/shared-0-sheet2.png", 589555, 723, 1, 1024, 512, false],
           null,
           [],
           false,
@@ -2877,7 +2877,7 @@ window.venhacomemorar = () => {
           [],
           0,
           0,
-          ["images/shared-0-sheet2.png", 373216, 723, 1025, 1024, 512, false],
+          ["images/shared-0-sheet2.png", 589555, 723, 1025, 1024, 512, false],
           null,
           [],
           false,
@@ -2895,7 +2895,7 @@ window.venhacomemorar = () => {
           [],
           0,
           0,
-          ["images/shared-0-sheet2.png", 373216, 723, 1025, 1024, 512, false],
+          ["images/shared-0-sheet2.png", 589555, 723, 1025, 1024, 512, false],
           null,
           [],
           false,
@@ -2913,7 +2913,7 @@ window.venhacomemorar = () => {
           [],
           1,
           0,
-          ["images/shared-0-sheet2.png", 373216, 723, 1025, 1024, 512, false],
+          ["images/shared-0-sheet2.png", 589555, 723, 1025, 1024, 512, false],
           null,
           [["Pin", 7, 2502136467277011, 6]],
           false,
@@ -2944,7 +2944,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet0.png",
-                  1185651,
+                  1611931,
                   1537,
                   714,
                   711,
@@ -2989,7 +2989,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet5.png",
-                  2793,
+                  3688,
                   103,
                   33,
                   20,
@@ -3034,7 +3034,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet1.png",
-                  1066359,
+                  1545817,
                   1537,
                   1,
                   711,
@@ -3079,7 +3079,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet5.png",
-                  2793,
+                  3688,
                   35,
                   97,
                   16,
@@ -3111,7 +3111,7 @@ window.venhacomemorar = () => {
           [],
           0,
           0,
-          ["images/shared-0-sheet2.png", 373216, 723, 1025, 1024, 512, false],
+          ["images/shared-0-sheet2.png", 589555, 723, 1025, 1024, 512, false],
           null,
           [],
           false,
@@ -3129,7 +3129,7 @@ window.venhacomemorar = () => {
           [],
           0,
           0,
-          ["images/shared-0-sheet2.png", 373216, 723, 1025, 1024, 512, false],
+          ["images/shared-0-sheet2.png", 589555, 723, 1025, 1024, 512, false],
           null,
           [],
           false,
@@ -3147,7 +3147,7 @@ window.venhacomemorar = () => {
           [],
           0,
           0,
-          ["images/shared-0-sheet2.png", 373216, 723, 1025, 1024, 512, false],
+          ["images/shared-0-sheet2.png", 589555, 723, 1025, 1024, 512, false],
           null,
           [],
           false,
@@ -3178,7 +3178,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet0.png",
-                  1185651,
+                  1611931,
                   1283,
                   1537,
                   711,
@@ -3223,7 +3223,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet4.png",
-                  83822,
+                  94174,
                   187,
                   1,
                   180,
@@ -3238,7 +3238,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/shared-0-sheet4.png",
-                  83822,
+                  94174,
                   125,
                   1,
                   180,
@@ -3253,7 +3253,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/shared-0-sheet4.png",
-                  83822,
+                  94174,
                   63,
                   1,
                   180,
@@ -3268,7 +3268,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/shared-0-sheet4.png",
-                  83822,
+                  94174,
                   1,
                   1,
                   180,
@@ -3300,7 +3300,7 @@ window.venhacomemorar = () => {
           [],
           0,
           0,
-          ["images/shared-0-sheet2.png", 373216, 723, 1025, 1024, 512, false],
+          ["images/shared-0-sheet2.png", 589555, 723, 1025, 1024, 512, false],
           null,
           [],
           false,
@@ -3318,7 +3318,7 @@ window.venhacomemorar = () => {
           [],
           0,
           0,
-          ["images/shared-0-sheet2.png", 373216, 723, 1025, 1024, 512, false],
+          ["images/shared-0-sheet2.png", 589555, 723, 1025, 1024, 512, false],
           null,
           [],
           false,
@@ -3336,7 +3336,7 @@ window.venhacomemorar = () => {
           [],
           0,
           0,
-          ["images/loadingbgnew-sheet0.png", 96, 0, 0, 16, 16, false],
+          ["images/loadingbgnew-sheet0.png", 100, 0, 0, 16, 16, false],
           null,
           [],
           false,
@@ -3354,7 +3354,7 @@ window.venhacomemorar = () => {
           [],
           0,
           0,
-          ["images/shared-0-sheet2.png", 373216, 723, 1025, 1024, 512, false],
+          ["images/shared-0-sheet2.png", 589555, 723, 1025, 1024, 512, false],
           null,
           [],
           false,
@@ -3384,13 +3384,13 @@ window.venhacomemorar = () => {
               328831565004139,
               [
                 [
-                  "images/shared-0-sheet0.png",
-                  1185651,
+                  "images/shared-0-sheet1.png",
+                  1545817,
                   1,
-                  1283,
+                  1,
                   1280,
                   720,
-                  false,
+                  true,
                   1,
                   0,
                   0,
@@ -3430,7 +3430,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet4.png",
-                  83822,
+                  94174,
                   458,
                   1,
                   100,
@@ -3466,7 +3466,7 @@ window.venhacomemorar = () => {
           [],
           0,
           0,
-          ["images/shared-0-sheet2.png", 373216, 723, 1, 1024, 512, false],
+          ["images/shared-0-sheet2.png", 589555, 723, 1, 1024, 512, false],
           null,
           [],
           false,
@@ -3497,7 +3497,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-1-sheet0.png",
-                  101979,
+                  132663,
                   1,
                   1,
                   300,
@@ -3542,7 +3542,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet1.png",
-                  1066359,
+                  1545817,
                   1537,
                   1025,
                   761,
@@ -3590,7 +3590,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet5.png",
-                  2793,
+                  3688,
                   65,
                   65,
                   16,
@@ -3635,7 +3635,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/explosion-sheet0.png",
-                  92536,
+                  131801,
                   432,
                   385,
                   67,
@@ -3650,7 +3650,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/explosion-sheet0.png",
-                  92536,
+                  131801,
                   316,
                   385,
                   93,
@@ -3665,7 +3665,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/explosion-sheet0.png",
-                  92536,
+                  131801,
                   257,
                   257,
                   107,
@@ -3680,7 +3680,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/explosion-sheet0.png",
-                  92536,
+                  131801,
                   105,
                   385,
                   95,
@@ -3695,7 +3695,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/explosion-sheet0.png",
-                  92536,
+                  131801,
                   1,
                   385,
                   102,
@@ -3710,8 +3710,8 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/explosion-sheet0.png",
-                  92536,
-                  1,
+                  131801,
+                  129,
                   257,
                   104,
                   113,
@@ -3725,8 +3725,8 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/explosion-sheet0.png",
-                  92536,
-                  129,
+                  131801,
+                  1,
                   257,
                   104,
                   113,
@@ -3740,7 +3740,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/explosion-sheet0.png",
-                  92536,
+                  131801,
                   213,
                   385,
                   101,
@@ -3755,7 +3755,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/explosion-sheet0.png",
-                  92536,
+                  131801,
                   385,
                   1,
                   108,
@@ -3770,7 +3770,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/explosion-sheet0.png",
-                  92536,
+                  131801,
                   1,
                   129,
                   109,
@@ -3785,7 +3785,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/explosion-sheet0.png",
-                  92536,
+                  131801,
                   257,
                   129,
                   102,
@@ -3800,7 +3800,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/explosion-sheet0.png",
-                  92536,
+                  131801,
                   385,
                   129,
                   103,
@@ -3815,7 +3815,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/explosion-sheet0.png",
-                  92536,
+                  131801,
                   129,
                   129,
                   104,
@@ -3830,7 +3830,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/explosion-sheet0.png",
-                  92536,
+                  131801,
                   385,
                   257,
                   105,
@@ -3875,7 +3875,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/box_shatter-sheet0.png",
-                  164129,
+                  221978,
                   1,
                   1,
                   256,
@@ -3890,7 +3890,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/box_shatter-sheet0.png",
-                  164129,
+                  221978,
                   259,
                   1,
                   256,
@@ -3905,7 +3905,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/box_shatter-sheet0.png",
-                  164129,
+                  221978,
                   517,
                   1,
                   256,
@@ -3920,7 +3920,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/box_shatter-sheet0.png",
-                  164129,
+                  221978,
                   1,
                   259,
                   256,
@@ -3935,7 +3935,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/box_shatter-sheet0.png",
-                  164129,
+                  221978,
                   259,
                   513,
                   256,
@@ -3950,7 +3950,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/box_shatter-sheet0.png",
-                  164129,
+                  221978,
                   517,
                   513,
                   256,
@@ -3965,7 +3965,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/box_shatter-sheet0.png",
-                  164129,
+                  221978,
                   1,
                   517,
                   256,
@@ -3980,7 +3980,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/box_shatter-sheet0.png",
-                  164129,
+                  221978,
                   259,
                   1025,
                   256,
@@ -3995,7 +3995,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/box_shatter-sheet0.png",
-                  164129,
+                  221978,
                   517,
                   1025,
                   256,
@@ -4010,7 +4010,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/box_shatter-sheet0.png",
-                  164129,
+                  221978,
                   1,
                   1025,
                   256,
@@ -4025,7 +4025,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/box_shatter-sheet0.png",
-                  164129,
+                  221978,
                   259,
                   1537,
                   256,
@@ -4040,7 +4040,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/box_shatter-sheet0.png",
-                  164129,
+                  221978,
                   517,
                   1537,
                   256,
@@ -4055,7 +4055,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/box_shatter-sheet0.png",
-                  164129,
+                  221978,
                   1,
                   1537,
                   256,
@@ -4100,7 +4100,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet4.png",
-                  83822,
+                  94174,
                   376,
                   165,
                   80,
@@ -4115,7 +4115,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/shared-0-sheet4.png",
-                  83822,
+                  94174,
                   294,
                   165,
                   80,
@@ -4130,7 +4130,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/shared-0-sheet4.png",
-                  83822,
+                  94174,
                   376,
                   83,
                   80,
@@ -4145,7 +4145,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/shared-0-sheet4.png",
-                  83822,
+                  94174,
                   294,
                   83,
                   80,
@@ -4160,7 +4160,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/shared-0-sheet4.png",
-                  83822,
+                  94174,
                   376,
                   1,
                   80,
@@ -4175,7 +4175,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/shared-0-sheet4.png",
-                  83822,
+                  94174,
                   294,
                   1,
                   80,
@@ -4223,7 +4223,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet4.png",
-                  83822,
+                  94174,
                   458,
                   193,
                   50,
@@ -4249,7 +4249,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet4.png",
-                  83822,
+                  94174,
                   458,
                   129,
                   50,
@@ -4300,7 +4300,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet4.png",
-                  83822,
+                  94174,
                   458,
                   193,
                   50,
@@ -4326,7 +4326,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet4.png",
-                  83822,
+                  94174,
                   458,
                   129,
                   50,
@@ -4374,7 +4374,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet5.png",
-                  2793,
+                  3688,
                   113,
                   65,
                   48,
@@ -4419,7 +4419,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet5.png",
-                  2793,
+                  3688,
                   121,
                   65,
                   48,
@@ -4464,7 +4464,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet4.png",
-                  83822,
+                  94174,
                   214,
                   194,
                   40,
@@ -4516,7 +4516,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet0.png",
-                  1185651,
+                  1611931,
                   1,
                   1,
                   1280,
@@ -4548,7 +4548,7 @@ window.venhacomemorar = () => {
           [],
           0,
           0,
-          ["images/bgnightsky-sheet0.png", 96, 0, 0, 16, 16, false],
+          ["images/bgnightsky-sheet0.png", 100, 0, 0, 16, 16, false],
           null,
           [],
           false,
@@ -4579,12 +4579,12 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet0.png",
-                  1185651,
-                  723,
+                  1611931,
                   1,
+                  1283,
                   1280,
                   720,
-                  true,
+                  false,
                   1,
                   0,
                   0,
@@ -4623,9 +4623,9 @@ window.venhacomemorar = () => {
               575143639506471,
               [
                 [
-                  "images/shared-0-sheet1.png",
-                  1066359,
-                  1,
+                  "images/shared-0-sheet0.png",
+                  1611931,
+                  723,
                   1,
                   1280,
                   720,
@@ -4669,7 +4669,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet2.png",
-                  373216,
+                  589555,
                   1,
                   1,
                   1280,
@@ -4684,7 +4684,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/shared-0-sheet1.png",
-                  1066359,
+                  1545817,
                   1,
                   1283,
                   1280,
@@ -4699,7 +4699,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/shared-0-sheet1.png",
-                  1066359,
+                  1545817,
                   723,
                   1,
                   1280,
@@ -4744,7 +4744,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet5.png",
-                  2793,
+                  3688,
                   1,
                   1,
                   32,
@@ -4789,7 +4789,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet5.png",
-                  2793,
+                  3688,
                   35,
                   1,
                   32,
@@ -4834,7 +4834,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet5.png",
-                  2793,
+                  3688,
                   69,
                   1,
                   32,
@@ -4879,7 +4879,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet5.png",
-                  2793,
+                  3688,
                   53,
                   97,
                   16,
@@ -4924,7 +4924,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet5.png",
-                  2793,
+                  3688,
                   71,
                   97,
                   16,
@@ -4969,7 +4969,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-1-sheet2.png",
-                  253,
+                  324,
                   1,
                   1,
                   16,
@@ -5017,7 +5017,7 @@ window.venhacomemorar = () => {
               [
                 [
                   boysSheet1,
-                  6676,
+                  11893,
                   0,
                   0,
                   200,
@@ -5038,7 +5038,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   boysSheet0,
-                  55542,
+                  98489,
                   809,
                   257,
                   200,
@@ -5060,7 +5060,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   boysSheet0,
-                  55542,
+                  98489,
                   607,
                   257,
                   200,
@@ -5080,7 +5080,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   boysSheet0,
-                  55542,
+                  98489,
                   405,
                   257,
                   200,
@@ -5112,7 +5112,7 @@ window.venhacomemorar = () => {
               [
                 [
                   boysSheet0,
-                  55542,
+                  98489,
                   203,
                   257,
                   200,
@@ -5135,7 +5135,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   boysSheet0,
-                  55542,
+                  98489,
                   1,
                   257,
                   200,
@@ -5158,7 +5158,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   boysSheet0,
-                  55542,
+                  98489,
                   809,
                   1,
                   200,
@@ -5182,7 +5182,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   boysSheet0,
-                  55542,
+                  98489,
                   607,
                   1,
                   200,
@@ -5205,7 +5205,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   boysSheet0,
-                  55542,
+                  98489,
                   405,
                   1,
                   200,
@@ -5226,7 +5226,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   boysSheet0,
-                  55542,
+                  98489,
                   203,
                   1,
                   200,
@@ -5260,7 +5260,7 @@ window.venhacomemorar = () => {
               [
                 [
                   boysSheet0,
-                  55542,
+                  98489,
                   1,
                   1,
                   200,
@@ -5293,7 +5293,7 @@ window.venhacomemorar = () => {
               [
                 [
                   boysSheet0,
-                  55542,
+                  98489,
                   1,
                   1,
                   200,
@@ -5349,7 +5349,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet4.png",
-                  83822,
+                  94174,
                   488,
                   1,
                   20,
@@ -5398,7 +5398,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/enemy01-sheet0.png",
-                  64285,
+                  79811,
                   1,
                   1,
                   128,
@@ -5413,7 +5413,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/enemy01-sheet0.png",
-                  64285,
+                  79811,
                   131,
                   1,
                   128,
@@ -5428,7 +5428,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/enemy01-sheet0.png",
-                  64285,
+                  79811,
                   261,
                   1,
                   128,
@@ -5443,7 +5443,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/enemy01-sheet0.png",
-                  64285,
+                  79811,
                   1,
                   131,
                   128,
@@ -5458,7 +5458,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/enemy01-sheet0.png",
-                  64285,
+                  79811,
                   131,
                   131,
                   128,
@@ -5473,7 +5473,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/enemy01-sheet0.png",
-                  64285,
+                  79811,
                   261,
                   131,
                   128,
@@ -5488,7 +5488,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/enemy01-sheet0.png",
-                  64285,
+                  79811,
                   1,
                   261,
                   128,
@@ -5503,7 +5503,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/enemy01-sheet0.png",
-                  64285,
+                  79811,
                   131,
                   261,
                   128,
@@ -5518,7 +5518,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/enemy01-sheet0.png",
-                  64285,
+                  79811,
                   261,
                   261,
                   128,
@@ -5566,7 +5566,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet3.png",
-                  706706,
+                  842563,
                   417,
                   1281,
                   128,
@@ -5584,7 +5584,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/shared-0-sheet3.png",
-                  706706,
+                  842563,
                   771,
                   1268,
                   128,
@@ -5602,7 +5602,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/shared-0-sheet3.png",
-                  706706,
+                  842563,
                   547,
                   1537,
                   128,
@@ -5620,7 +5620,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/shared-0-sheet3.png",
-                  706706,
+                  842563,
                   1,
                   1537,
                   128,
@@ -5638,7 +5638,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/shared-0-sheet3.png",
-                  706706,
+                  842563,
                   131,
                   1537,
                   128,
@@ -5689,7 +5689,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/enemy03-sheet0.png",
-                  61852,
+                  83187,
                   1,
                   1,
                   128,
@@ -5707,7 +5707,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/enemy03-sheet0.png",
-                  61852,
+                  83187,
                   131,
                   1,
                   128,
@@ -5725,7 +5725,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/enemy03-sheet0.png",
-                  61852,
+                  83187,
                   261,
                   1,
                   128,
@@ -5743,7 +5743,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/enemy03-sheet0.png",
-                  61852,
+                  83187,
                   1,
                   131,
                   128,
@@ -5761,7 +5761,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/enemy03-sheet0.png",
-                  61852,
+                  83187,
                   131,
                   131,
                   128,
@@ -5779,7 +5779,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/enemy03-sheet0.png",
-                  61852,
+                  83187,
                   261,
                   131,
                   128,
@@ -5797,7 +5797,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/enemy03-sheet0.png",
-                  61852,
+                  83187,
                   1,
                   261,
                   128,
@@ -5815,7 +5815,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/enemy03-sheet0.png",
-                  61852,
+                  83187,
                   131,
                   261,
                   128,
@@ -5833,7 +5833,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/enemy03-sheet0.png",
-                  61852,
+                  83187,
                   261,
                   261,
                   128,
@@ -5878,7 +5878,7 @@ window.venhacomemorar = () => {
           [
             [
               "idle",
-              10,
+              6,
               true,
               1,
               0,
@@ -5887,28 +5887,8 @@ window.venhacomemorar = () => {
               [
                 [
                   babySheet0,
-                  406269,
-                  1,
-                  1,
-                  200,
-                  200,
-                  false,
-                  1,
-                  0.535,
-                  0.83,
-                  [],
-                  [
-                    -0.18, -0.6599999999999999, 0.14499999999999968,
-                    -0.6599999999999999, 0.14499999999999968,
-                    -1.1102230246251565e-16, -0.17999999999999983,
-                    -1.1102230246251565e-16,
-                  ],
-                  "",
-                ],
-                [
-                  babySheet0,
-                  406269,
-                  203,
+                  397607,
+                  513,
                   1,
                   200,
                   200,
@@ -5918,17 +5898,21 @@ window.venhacomemorar = () => {
                   0.83,
                   [],
                   [
-                    -0.18, -0.6599999999999999, 0.14499999999999968,
-                    -0.6599999999999999, 0.14499999999999968,
-                    -1.1102230246251565e-16, -0.17999999999999983,
-                    -1.1102230246251565e-16,
+                    0.15999999999999992, -0.695, 0.19999999999999996, -0.52,
+                    0.20999999999999996, -0.355, 0.16499999999999992,
+                    -0.11499999999999999, 0.08999999999999997,
+                    0.010000000000000009, -0.10500000000000004,
+                    0.010000000000000009, -0.17000000000000004,
+                    -0.04999999999999993, -0.265, -0.38499999999999995, -0.265,
+                    -0.42999999999999994, -0.195, -0.605, -0.15000000000000002,
+                    -0.645, -0.11000000000000004, -0.6649999999999999,
                   ],
                   "",
                 ],
                 [
                   babySheet0,
-                  406269,
-                  405,
+                  397607,
+                  769,
                   1,
                   200,
                   200,
@@ -5938,96 +5922,20 @@ window.venhacomemorar = () => {
                   0.83,
                   [],
                   [
-                    -0.18, -0.6599999999999999, 0.14499999999999968,
-                    -0.6599999999999999, 0.14499999999999968,
-                    -1.1102230246251565e-16, -0.17999999999999983,
-                    -1.1102230246251565e-16,
+                    0.15000000000000002, -0.705, 0.19499999999999995, -0.52,
+                    0.20499999999999996, -0.355, 0.16499999999999992, -0.125,
+                    0.08999999999999997, 0.010000000000000009,
+                    -0.10500000000000004, 0.010000000000000009,
+                    -0.17000000000000004, -0.04999999999999993, -0.27,
+                    -0.38499999999999995, -0.27, -0.42999999999999994,
+                    -0.20500000000000002, -0.6, -0.12000000000000005,
+                    -0.6649999999999999,
                   ],
                   "",
                 ],
                 [
                   babySheet0,
-                  406269,
-                  607,
-                  1,
-                  200,
-                  200,
-                  false,
-                  1,
-                  0.535,
-                  0.83,
-                  [],
-                  [
-                    -0.18, -0.6599999999999999, 0.14499999999999968,
-                    -0.6599999999999999, 0.14499999999999968,
-                    -1.1102230246251565e-16, -0.17999999999999983,
-                    -1.1102230246251565e-16,
-                  ],
-                  "",
-                ],
-                [
-                  babySheet0,
-                  406269,
-                  809,
-                  1,
-                  200,
-                  200,
-                  false,
-                  1,
-                  0.535,
-                  0.83,
-                  [],
-                  [
-                    -0.18, -0.6599999999999999, 0.14499999999999968,
-                    -0.6599999999999999, 0.14499999999999968,
-                    -1.1102230246251565e-16, -0.17999999999999983,
-                    -1.1102230246251565e-16,
-                  ],
-                  "",
-                ],
-                [
-                  babySheet0,
-                  406269,
-                  1,
-                  203,
-                  200,
-                  200,
-                  false,
-                  1,
-                  0.535,
-                  0.83,
-                  [],
-                  [
-                    -0.18, -0.6599999999999999, 0.14499999999999968,
-                    -0.6599999999999999, 0.14499999999999968,
-                    -1.1102230246251565e-16, -0.17999999999999983,
-                    -1.1102230246251565e-16,
-                  ],
-                  "",
-                ],
-                [
-                  babySheet0,
-                  406269,
-                  203,
-                  257,
-                  200,
-                  200,
-                  false,
-                  1,
-                  0.535,
-                  0.83,
-                  [],
-                  [
-                    -0.18, -0.6599999999999999, 0.14499999999999968,
-                    -0.6599999999999999, 0.14499999999999968,
-                    -1.1102230246251565e-16, -0.17999999999999983,
-                    -1.1102230246251565e-16,
-                  ],
-                  "",
-                ],
-                [
-                  babySheet0,
-                  406269,
+                  397607,
                   405,
                   257,
                   200,
@@ -6038,16 +5946,44 @@ window.venhacomemorar = () => {
                   0.83,
                   [],
                   [
-                    -0.18, -0.6599999999999999, 0.14499999999999968,
-                    -0.6599999999999999, 0.14499999999999968,
-                    -1.1102230246251565e-16, -0.17999999999999983,
-                    -1.1102230246251565e-16,
+                    0.12, -0.705, 0.17499999999999993, -0.5349999999999999,
+                    0.19499999999999995, -0.39999999999999997,
+                    0.19499999999999995, -0.36, 0.16999999999999993, -0.125,
+                    0.08999999999999997, 0.010000000000000009,
+                    -0.10500000000000004, 0.010000000000000009,
+                    -0.18500000000000005, -0.05999999999999994, -0.28,
+                    -0.36999999999999994, -0.28, -0.42, -0.22500000000000003,
+                    -0.595, -0.16500000000000004, -0.6499999999999999,
                   ],
                   "",
                 ],
                 [
                   babySheet0,
-                  406269,
+                  397607,
+                  203,
+                  769,
+                  200,
+                  200,
+                  false,
+                  1,
+                  0.535,
+                  0.83,
+                  [],
+                  [
+                    0.13, -0.71, 0.18499999999999994, -0.5249999999999999,
+                    0.19999999999999996, -0.39499999999999996,
+                    0.19999999999999996, -0.355, 0.16999999999999993, -0.125,
+                    0.08999999999999997, 0.010000000000000009,
+                    -0.10500000000000004, 0.010000000000000009,
+                    -0.18000000000000005, -0.05499999999999994, -0.275,
+                    -0.37499999999999994, -0.275, -0.42499999999999993,
+                    -0.16500000000000004, -0.645,
+                  ],
+                  "",
+                ],
+                [
+                  babySheet0,
+                  397607,
                   607,
                   257,
                   200,
@@ -6058,10 +5994,14 @@ window.venhacomemorar = () => {
                   0.83,
                   [],
                   [
-                    -0.18, -0.6599999999999999, 0.14499999999999968,
-                    -0.6599999999999999, 0.14499999999999968,
-                    -1.1102230246251565e-16, -0.17999999999999983,
-                    -1.1102230246251565e-16,
+                    0.14500000000000002, -0.7, 0.19499999999999995, -0.51,
+                    0.20499999999999996, -0.355, 0.16499999999999992,
+                    -0.11499999999999999, 0.08999999999999997,
+                    0.010000000000000009, -0.10500000000000004,
+                    0.010000000000000009, -0.17500000000000004,
+                    -0.05499999999999994, -0.27, -0.37999999999999995, -0.27,
+                    -0.42999999999999994, -0.21000000000000002, -0.595,
+                    -0.12000000000000005, -0.6649999999999999,
                   ],
                   "",
                 ],
@@ -6078,7 +6018,7 @@ window.venhacomemorar = () => {
               [
                 [
                   babySheet0,
-                  406269,
+                  397607,
                   809,
                   257,
                   200,
@@ -6098,9 +6038,9 @@ window.venhacomemorar = () => {
                 ],
                 [
                   babySheet0,
-                  406269,
+                  397607,
                   1,
-                  405,
+                  257,
                   200,
                   200,
                   false,
@@ -6118,27 +6058,27 @@ window.venhacomemorar = () => {
                 ],
                 [
                   babySheet0,
-                  406269,
+                  397607,
                   203,
-                  513,
+                  257,
                   200,
                   200,
                   false,
                   1,
-                  0.535,
+                  0.54,
                   0.83,
                   [],
                   [
-                    -0.18, -0.6599999999999999, 0.14499999999999968,
-                    -0.6599999999999999, 0.14499999999999968,
-                    -1.1102230246251565e-16, -0.17999999999999983,
+                    -0.185, -0.6599999999999999, 0.13999999999999968,
+                    -0.6599999999999999, 0.13999999999999968,
+                    -1.1102230246251565e-16, -0.18499999999999983,
                     -1.1102230246251565e-16,
                   ],
                   "",
                 ],
                 [
                   babySheet0,
-                  406269,
+                  397607,
                   405,
                   513,
                   200,
@@ -6158,7 +6098,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   babySheet0,
-                  406269,
+                  397607,
                   607,
                   513,
                   200,
@@ -6178,7 +6118,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   babySheet0,
-                  406269,
+                  397607,
                   809,
                   513,
                   200,
@@ -6198,9 +6138,9 @@ window.venhacomemorar = () => {
                 ],
                 [
                   babySheet0,
-                  406269,
+                  397607,
                   1,
-                  607,
+                  513,
                   200,
                   200,
                   false,
@@ -6218,9 +6158,9 @@ window.venhacomemorar = () => {
                 ],
                 [
                   babySheet0,
-                  406269,
+                  397607,
                   203,
-                  769,
+                  513,
                   200,
                   200,
                   false,
@@ -6249,7 +6189,7 @@ window.venhacomemorar = () => {
               [
                 [
                   babySheet0,
-                  406269,
+                  397607,
                   405,
                   769,
                   200,
@@ -6269,7 +6209,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   babySheet0,
-                  406269,
+                  397607,
                   607,
                   769,
                   200,
@@ -6289,7 +6229,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   babySheet0,
-                  406269,
+                  397607,
                   809,
                   769,
                   200,
@@ -6320,9 +6260,9 @@ window.venhacomemorar = () => {
               [
                 [
                   babySheet0,
-                  406269,
+                  397607,
                   1,
-                  809,
+                  769,
                   200,
                   200,
                   false,
@@ -6377,7 +6317,7 @@ window.venhacomemorar = () => {
               [
                 [
                   girlSheet1,
-                  18762,
+                  22624,
                   0,
                   0,
                   200,
@@ -6399,7 +6339,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   girlSheet0,
-                  152697,
+                  189632,
                   809,
                   257,
                   200,
@@ -6420,7 +6360,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   girlSheet0,
-                  152697,
+                  189632,
                   809,
                   257,
                   200,
@@ -6441,7 +6381,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   girlSheet0,
-                  152697,
+                  189632,
                   607,
                   257,
                   200,
@@ -6474,8 +6414,8 @@ window.venhacomemorar = () => {
               [
                 [
                   girlSheet0,
-                  152697,
-                  1,
+                  189632,
+                  405,
                   257,
                   200,
                   200,
@@ -6496,9 +6436,9 @@ window.venhacomemorar = () => {
                 ],
                 [
                   girlSheet0,
-                  152697,
-                  809,
-                  1,
+                  189632,
+                  203,
+                  257,
                   200,
                   200,
                   false,
@@ -6519,9 +6459,9 @@ window.venhacomemorar = () => {
                 ],
                 [
                   girlSheet0,
-                  152697,
-                  607,
+                  189632,
                   1,
+                  257,
                   200,
                   200,
                   false,
@@ -6541,8 +6481,8 @@ window.venhacomemorar = () => {
                 ],
                 [
                   girlSheet0,
-                  152697,
-                  405,
+                  189632,
+                  809,
                   1,
                   200,
                   200,
@@ -6563,8 +6503,8 @@ window.venhacomemorar = () => {
                 ],
                 [
                   girlSheet0,
-                  152697,
-                  203,
+                  189632,
+                  607,
                   1,
                   200,
                   200,
@@ -6586,8 +6526,8 @@ window.venhacomemorar = () => {
                 ],
                 [
                   girlSheet0,
-                  152697,
-                  1,
+                  189632,
+                  405,
                   1,
                   200,
                   200,
@@ -6618,9 +6558,9 @@ window.venhacomemorar = () => {
               [
                 [
                   girlSheet0,
-                  152697,
-                  405,
-                  257,
+                  189632,
+                  203,
+                  1,
                   200,
                   200,
                   false,
@@ -6652,9 +6592,9 @@ window.venhacomemorar = () => {
               [
                 [
                   girlSheet0,
-                  152697,
-                  203,
-                  257,
+                  189632,
+                  1,
+                  1,
                   200,
                   200,
                   false,
@@ -6695,7 +6635,7 @@ window.venhacomemorar = () => {
           [],
           0,
           0,
-          ["images/shared-0-sheet5.png", 2793, 1, 65, 32, 32, false],
+          ["images/shared-0-sheet5.png", 3688, 1, 65, 32, 32, false],
           null,
           [],
           false,
@@ -6713,7 +6653,7 @@ window.venhacomemorar = () => {
           [],
           0,
           1,
-          ["images/shared-1-sheet0.png", 101979, 259, 513, 250, 250, false],
+          ["images/shared-1-sheet0.png", 132663, 259, 513, 250, 250, false],
           null,
           [],
           false,
@@ -6744,7 +6684,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-1-sheet0.png",
-                  101979,
+                  132663,
                   259,
                   769,
                   212,
@@ -6776,7 +6716,7 @@ window.venhacomemorar = () => {
           [],
           0,
           0,
-          ["images/shared-0-sheet4.png", 83822, 1, 183, 54, 68, false],
+          ["images/shared-0-sheet4.png", 94174, 1, 183, 54, 68, false],
           null,
           [],
           false,
@@ -6807,7 +6747,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-1-sheet1.png",
-                  19873,
+                  25350,
                   1,
                   193,
                   35,
@@ -6867,7 +6807,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-0-sheet3.png",
-                  706706,
+                  842563,
                   1,
                   1025,
                   212,
@@ -6912,7 +6852,7 @@ window.venhacomemorar = () => {
               [
                 [
                   "images/shared-1-sheet1.png",
-                  19873,
+                  25350,
                   67,
                   131,
                   51,
@@ -6943,7 +6883,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/shared-1-sheet1.png",
-                  19873,
+                  25350,
                   74,
                   1,
                   52,
@@ -6969,7 +6909,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/shared-1-sheet1.png",
-                  19873,
+                  25350,
                   74,
                   69,
                   53,
@@ -6995,7 +6935,7 @@ window.venhacomemorar = () => {
                 ],
                 [
                   "images/shared-1-sheet1.png",
-                  19873,
+                  25350,
                   1,
                   1,
                   71,
@@ -34246,7 +34186,7 @@ window.venhacomemorar = () => {
             [1, "score", 0, 0, false, false, 2196572271339338, false, 121],
             [1, "audioGame", 0, 0, false, false, 639636771945716, false, 122],
             [1, "stars", 0, 0, false, false, 6350672514009554, false, 36],
-            [1, "player", 0, 3, false, false, 344483468862064, false, 123],
+            [1, "player", 0, 2, false, false, 344483468862064, false, 123],
             [
               1,
               "life",
@@ -43835,7 +43775,7 @@ window.venhacomemorar = () => {
       [],
       "high-performance",
       [],
-      1751158153679,
+      1752706381709,
       "vsync",
       "",
       "loading-logo.png",

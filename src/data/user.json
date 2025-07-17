@@ -67,9 +67,9 @@
     "person": "https://venhacomemorar.s3.sa-east-1.amazonaws.com/users/ravi/person.png",
     "boysSheet0": null,
     "boysSheet1": null,
-    "girlSheet0": "https://venhacomemorar.s3.sa-east-1.amazonaws.com/users/ravi/girlSheet0.png",
-    "girlSheet1": "https://venhacomemorar.s3.sa-east-1.amazonaws.com/users/ravi/girlSheet1.png",
-    "babySheet0": null,
-    "player": "girl"
+    "girlSheet0": null,
+    "girlSheet1": null,
+    "babySheet0": "images/baby-sheet0.png",
+    "player": "baby"
 }
   
